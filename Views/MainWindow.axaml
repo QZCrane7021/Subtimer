@@ -15,14 +15,23 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+    <!-- 从这里开始是最外层的主框架 -->
     <Grid x:Name="Main" RowDefinitions="Auto, 4*, Auto, 6*">
+        <!-- 保存快捷键 -->
+        <Grid.KeyBindings>
+            <KeyBinding Gesture="{OnPlatform Ctrl+S, macOS=Cmd+S}" Command="{Binding SaveSrtCommand}" />
+        </Grid.KeyBindings>
+
+        <!-- 顶部菜单 -->
         <DockPanel x:Name="TopBar" Grid.Row="0">
             <Label>
                 这里是主上菜单
             </Label>
         </DockPanel>
 
+        <!-- 音视频视图 -->
         <Grid x:Name="VidAudPanel" Grid.Row="1" ColumnDefinitions="3*, Auto, 7*">
+            <!-- 视频视图 -->
             <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Column="0">
                 <Grid x:Name="VideoPanel" RowDefinitions="*, Auto">
                     <Panel x:Name="VideoPlay" Grid.Row="0" >
@@ -40,6 +49,7 @@
 
             <GridSplitter VerticalAlignment="Stretch" Background="#3C3C3C" Width="2" Grid.Column="1" ></GridSplitter>
             
+            <!-- 音频视图 -->
             <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Column="2">
                 <Grid x:Name="AudioPanel" RowDefinitions="*, Auto" >
                     <Panel x:Name="AudioPlay" Grid.Row="0">
@@ -59,8 +69,11 @@
 
         <GridSplitter HorizontalAlignment="Stretch" Background="#3C3C3C" Height="2" Grid.Row="2" ></GridSplitter>
 
+        <!-- 字幕大区视图 -->
         <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="3">
+            <!-- 字幕视图 -->
             <Grid x:Name="SubtitlePanel" RowDefinitions="Auto, *, Auto">
+                <!-- 上方的字幕编辑小栏 -->
                 <Grid DataContext="{Binding CurrentSubtitle}" x:Name="SubtitleItemInputPanel" Grid.Row="0" ColumnDefinitions="Auto, 120, Auto, 120, *" ColumnSpacing="5" VerticalAlignment="Center">
                     <TextBlock Grid.Column="0" VerticalAlignment="Center"> 起始时间 </TextBlock>
                     <MaskedTextBox Grid.Column="1" x:Name="StartTimeInput" Mask="00:00:00,000" Text="{Binding StartTimeStr, Mode=TwoWay}" Width="120"/>
@@ -68,8 +81,11 @@
                     <MaskedTextBox Grid.Column="3" x:Name="EndTimeInput" Mask="00:00:00,000" Text="{Binding EndTimeStr, Mode=TwoWay}" Width="120"/>
                     <TextBox Grid.Column="4" x:Name="SubTextInput" Text="{Binding Text, Mode=TwoWay}" HorizontalAlignment="Stretch"/>
                 </Grid>
+
+                <!-- 下方的字幕列表 -->
                 <Panel x:Name="SubtitleListPanel" Grid.Row="1">
-                    <DataGrid ItemsSource="{Binding SubtitleList}" 
+                    <DataGrid x:Name="SubtitleDataGrid"
+                        ItemsSource="{Binding SubtitleList}" 
                         SelectionChanged="SubtitleList_SelectionChanged"
                         CanUserResizeColumns="True" 
                         CanUserSortColumns="False"
@@ -106,6 +122,8 @@
                         </DataGrid.Columns>
                     </DataGrid>
                 </Panel>
+
+                <!-- 底部的菜单 -->
                 <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="2">
                     <StackPanel x:Name="SubtitleDock" Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
                         <Button Click="OpenSrt_Click" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>

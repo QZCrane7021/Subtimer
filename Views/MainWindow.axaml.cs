@@ -9,11 +9,14 @@ namespace Subtimer.Views;
 
 public partial class MainWindow : Window
 {
+    private bool _isSyncingSelection;
+
     public MainWindow()
     {
         InitializeComponent();
     }
 
+    // 打开字幕按钮
     private async void OpenSrt_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
         var topLevel = TopLevel.GetTopLevel(this);
@@ -38,51 +41,62 @@ public partial class MainWindow : Window
             string filePath = files[0].Path.LocalPath;
             if (DataContext is MainWindowViewModel viewModel)
             {
-                Console.WriteLine(filePath);
                 viewModel.OpenSubtitleFile(filePath);
+                SyncSelectionToGrid(viewModel.CurrentSubtitle);
             }
         }
     }
 
+    // 字幕列表选择区域变化
     private void SubtitleList_SelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
+        if (_isSyncingSelection)
+        {
+            return;
+        }
+
         if (DataContext is MainWindowViewModel viewModel)
         {
-            if (viewModel.SelectedSubtitles is null)
+            // 先让 ViewModel 默默更新数据（SelectedSubtitles 和 CurrentSubtitle）
+            viewModel.SyncSelection(e.RemovedItems.OfType<SubtitleItem>(), e.AddedItems.OfType<SubtitleItem>());
+            
+            // 检查 DataGrid 此时真实的选中数量
+            // 只有当数量真的归零了（即用户按 Ctrl 取消了最后一条，或者全选后误触取消干净），
+            // 我们才老老实实启动 Aegisub 的保底机制，强行把 View 掰回来。
+            if (SubtitleDataGrid != null && SubtitleDataGrid.SelectedItems.Count == 0)
             {
-                viewModel.SelectedSubtitles = new ObservableCollection<SubtitleItem>();
+                SyncSelectionToGrid(viewModel.CurrentSubtitle);
+            }
+        }
+    }
+
+    private void SyncSelectionToGrid(SubtitleItem? subtitle)
+    {
+        if (_isSyncingSelection || DataContext is not MainWindowViewModel)
+        {
+            return;
+        }
+
+        if (SubtitleDataGrid is null)
+        {
+            return;
+        }
+
+        _isSyncingSelection = true;
+        try
+        {
+            if (subtitle is null)
+            {
+                SubtitleDataGrid.SelectedIndex = -1;
+                return;
             }
 
-            foreach (var removedItem in e.RemovedItems.OfType<SubtitleItem>())
-            {
-                viewModel.SelectedSubtitles.Remove(removedItem);
-            }
-
-            foreach (var addedItem in e.AddedItems.OfType<SubtitleItem>())
-            {
-                if (!viewModel.SelectedSubtitles.Contains(addedItem))
-                {
-                    viewModel.SelectedSubtitles.Add(addedItem);
-                }
-            }
-
-            if (e.AddedItems.Count > 0)
-            {
-                var lastClicked = e.AddedItems[e.AddedItems.Count - 1] as SubtitleItem;
-                if (lastClicked != null)
-                {
-                    viewModel.CurrentSubtitle = lastClicked;
-                    // viewModel.MoveTimelineTo(lastClicked.StartTime);
-                }
-            }
-            else if (viewModel.SelectedSubtitles.Count > 0)
-            {
-                viewModel.CurrentSubtitle = viewModel.SelectedSubtitles[^1];
-            }
-            else
-            {
-                viewModel.CurrentSubtitle = null;
-            }
+            var index = (DataContext as MainWindowViewModel)?.SubtitleList.IndexOf(subtitle) ?? -1;
+            SubtitleDataGrid.SelectedIndex = index;
+        }
+        finally
+        {
+            _isSyncingSelection = false;
         }
     }
 }

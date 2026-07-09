@@ -48,33 +48,39 @@ public partial class SubtitleItem : ObservableObject
         SpeechSpeed = CalculateSpeechSpeed(Text, StartTime, EndTime);
     }
 
+    // 起始时间改变,同步改变 StartTimeStr,并重算语速
     partial void OnStartTimeChanged(TimeSpan value)
     {
         OnPropertyChanged(nameof(StartTimeStr));
         RecalculateSpeechSpeed();
     }
 
+    // 结束时间改变,同步改变 EndTimeStr,并重算语速
     partial void OnEndTimeChanged(TimeSpan value)
     {
         OnPropertyChanged(nameof(EndTimeStr));
         RecalculateSpeechSpeed();
     }
 
+    // 文本改变,并重算语速
     partial void OnTextChanged(string value)
     {
         RecalculateSpeechSpeed();
     }
 
+    // 语速改变,同步改变 SpeechSpeedStr
     partial void OnSpeechSpeedChanged(float value)
     {
         OnPropertyChanged(nameof(SpeechSpeedStr));
     }
 
+    // 重算语速
     private void RecalculateSpeechSpeed()
     {
         SpeechSpeed = CalculateSpeechSpeed(Text, StartTime, EndTime);
     }
 
+    // 解析时间戳
     private static TimeSpan ParseTime(string value, TimeSpan fallback)
     {
         if (TimeSpan.TryParseExact(value, @"hh\:mm\:ss\,fff", null, out var parsed))
@@ -112,6 +118,7 @@ public partial class SubtitleItem : ObservableObject
         return (float)(adjustedLength / durationInSeconds);
     }
 
+    // 半角符号判定
     private static bool IsHalfWidthCharacter(char character)
     {
         return character <= '\u007F' || (character >= '\uFF61' && character <= '\uFF9F');

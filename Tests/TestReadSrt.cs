@@ -2,6 +2,7 @@
 using System.IO;
 using Subtimer.Models;
 using Subtimer.Services;
+using Subtimer.ViewModels;
 
 using Xunit;
 
@@ -39,5 +40,35 @@ public class SubtitleParserTests
         var item = new SubtitleItem(1, TimeSpan.Zero, TimeSpan.FromSeconds(2), "A中B");
 
         Assert.Equal(1f, item.SpeechSpeed, 3);
+    }
+
+    [Fact]
+    public void OpenSubtitleFile_SelectsFirstSubtitleByDefault()
+    {
+        string fixturePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "TestNormal.srt"));
+        var viewModel = new MainWindowViewModel();
+
+        viewModel.OpenSubtitleFile(fixturePath);
+
+        Assert.NotNull(viewModel.CurrentSubtitle);
+        Assert.Equal(1, viewModel.CurrentSubtitle!.Id);
+        Assert.Single(viewModel.SelectedSubtitles);
+        Assert.Same(viewModel.CurrentSubtitle, viewModel.SelectedSubtitles[0]);
+    }
+
+    [Fact]
+    public void SyncSelection_WhenAllSelectionsRemoved_RestoresPreviousSelection()
+    {
+        string fixturePath = Path.GetFullPath(Path.Combine(AppContext.BaseDirectory, "..", "..", "..", "TestNormal.srt"));
+        var viewModel = new MainWindowViewModel();
+
+        viewModel.OpenSubtitleFile(fixturePath);
+        var firstSubtitle = viewModel.CurrentSubtitle!;
+
+        viewModel.SyncSelection(new[] { firstSubtitle }, Array.Empty<SubtitleItem>());
+
+        Assert.NotNull(viewModel.CurrentSubtitle);
+        Assert.Single(viewModel.SelectedSubtitles);
+        Assert.Same(viewModel.CurrentSubtitle, viewModel.SelectedSubtitles[0]);
     }
 }

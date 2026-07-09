@@ -35,4 +35,21 @@
     <PackageReference Include="Semi.Avalonia.DataGrid" Version="12.0.0" />
     <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
+
+  <!-- Windows 平台 -->
+  <!--ItemGroup Condition="$([RuntimeInformation]::IsOSPlatform($([OSPlatform]::Windows)))">
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.18" />
+  </ItemGroup-->
+
+  <!-- macOS 平台 -->
+  <!--ItemGroup Condition="$([RuntimeInformation]::IsOSPlatform($([OSPlatform]::OSX)))">
+    <PackageReference Include="VideoLAN.LibVLC.Mac" Version="3.1.3.1" />
+  </ItemGroup-->
+
+  <!-- Linux 平台 -->
+  <!--ItemGroup Condition="$([RuntimeInformation]::IsOSPlatform($([OSPlatform]::Linux)))"-->
+    <!-- 让程序直接使用系统自带的 vlc 库 -->
+    <!-- 如果不想让用户在 Linux 上手动安装 vlc，也可以使用下面的包 -->
+    <!-- <PackageReference Include="VideoLAN.LibVLC.Linux" Version="3.0.11" /> -->
+  <!--/ItemGroup-->
 </Project>
