@@ -61,16 +61,16 @@
 
         <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="3">
             <Grid x:Name="SubtitlePanel" RowDefinitions="Auto, *, Auto">
-                <Grid x:Name="SubtitleItemInputPanel" Grid.Row="0" ColumnDefinitions="Auto, 120, Auto, 120, *" ColumnSpacing="5">
-                    <TextBlock Grid.Column="0"> 起始时间 </TextBlock>
-                    <TextBox Grid.Column="1" x:Name="StartTimeInput" Width="120"/>
-                    <TextBlock Grid.Column="2"> 终止时间 </TextBlock>
-                    <TextBox Grid.Column="3" x:Name="EndTimeInput" Width="120"/>
-                    <TextBox Grid.Column="4" x:Name="SubTextInput" HorizontalAlignment="Stretch"/>
+                <Grid DataContext="{Binding CurrentSubtitle}" x:Name="SubtitleItemInputPanel" Grid.Row="0" ColumnDefinitions="Auto, 120, Auto, 120, *" ColumnSpacing="5" VerticalAlignment="Center">
+                    <TextBlock Grid.Column="0" VerticalAlignment="Center"> 起始时间 </TextBlock>
+                    <MaskedTextBox Grid.Column="1" x:Name="StartTimeInput" Mask="00:00:00,000" Text="{Binding StartTimeStr, Mode=TwoWay}" Width="120"/>
+                    <TextBlock Grid.Column="2" VerticalAlignment="Center"> 终止时间 </TextBlock>
+                    <MaskedTextBox Grid.Column="3" x:Name="EndTimeInput" Mask="00:00:00,000" Text="{Binding EndTimeStr, Mode=TwoWay}" Width="120"/>
+                    <TextBox Grid.Column="4" x:Name="SubTextInput" Text="{Binding Text, Mode=TwoWay}" HorizontalAlignment="Stretch"/>
                 </Grid>
                 <Panel x:Name="SubtitleListPanel" Grid.Row="1">
                     <DataGrid ItemsSource="{Binding SubtitleList}" 
-                        SelectedItem="{Binding SelectedSubtitle, Mode=TwoWay}"
+                        SelectionChanged="SubtitleList_SelectionChanged"
                         CanUserResizeColumns="True" 
                         CanUserSortColumns="False"
                         GridLinesVisibility="All"
@@ -78,28 +78,28 @@
                         RowHeight="26">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="#" 
-                                                Binding="{Binding $parent[DataGridRow].Index}" 
-                                                Width="40" 
+                                                Binding="{Binding $parent[DataGridRow].Index}"
+                                                Width="50" 
                                                 IsReadOnly="True" />
                             <DataGridTextColumn Header="开始时间" 
                                                 Binding="{Binding StartTimeStr}" 
-                                                Width="100"/>
+                                                Width="120"/>
                             <DataGridTextColumn Header="结束时间" 
                                                 Binding="{Binding EndTimeStr}" 
-                                                Width="100"/>
-                            <!--DataGridTemplateColumn Header="字/秒" Width="70">
+                                                Width="120"/>
+                            <DataGridTemplateColumn Header="语速（字/秒）" Width="70">
                                 <DataGridTemplateColumn.CellTemplate>
                                     <DataTemplate>
-                                        <Border Background="{Binding WarningBackground}" 
+                                        <Border  
                                                 HorizontalAlignment="Stretch" 
                                                 VerticalAlignment="Stretch">
-                                            <TextBlock Text="{Binding WordsPerSecond}" 
+                                            <TextBlock Text="{Binding SpeechSpeedStr}" 
                                                     HorizontalAlignment="Center" 
                                                     VerticalAlignment="Center"/>
                                         </Border>
                                     </DataTemplate>
                                 </DataGridTemplateColumn.CellTemplate>
-                            </DataGridTemplateColumn-->
+                            </DataGridTemplateColumn>
                             <DataGridTextColumn Header="文本" 
                                                 Binding="{Binding Text}" 
                                                 Width="*"/>
@@ -108,7 +108,7 @@
                 </Panel>
                 <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="2">
                     <StackPanel x:Name="SubtitleDock" Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
-                        <Button Click="OpenSrtClick" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>
+                        <Button Click="OpenSrt_Click" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>
                         <Button x:Name="BilingualMode" Background="#EFEFEF">双语模式</Button>
                         <Button x:Name="CJKHalfWidthFix" Background="#EFEFEF">CJK半角修正</Button>
                     </StackPanel>

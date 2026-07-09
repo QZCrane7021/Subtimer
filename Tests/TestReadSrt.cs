@@ -32,4 +32,12 @@ public class SubtitleParserTests
         Assert.Equal(TimeSpan.FromSeconds(3).Add(TimeSpan.FromMilliseconds(325)), secondItem.EndTime);
         Assert.Equal("Hello,user!", secondItem.Text);
     }
+
+    [Fact]
+    public void Constructor_UsesHalfWidthAdjustedSpeechSpeed()
+    {
+        var item = new SubtitleItem(1, TimeSpan.Zero, TimeSpan.FromSeconds(2), "A中B");
+
+        Assert.Equal(1f, item.SpeechSpeed, 3);
+    }
 }
