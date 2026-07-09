@@ -1,0 +1,120 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Subtimer.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Subtimer.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Subtimer">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid x:Name="Main" RowDefinitions="Auto, 4*, Auto, 6*">
+        <DockPanel x:Name="TopBar" Grid.Row="0">
+            <Label>
+                这里是主上菜单
+            </Label>
+        </DockPanel>
+
+        <Grid x:Name="VidAudPanel" Grid.Row="1" ColumnDefinitions="3*, Auto, 7*">
+            <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Column="0">
+                <Grid x:Name="VideoPanel" RowDefinitions="*, Auto">
+                    <Panel x:Name="VideoPlay" Grid.Row="0" >
+                        <Label>
+                            这里是视频播放面板
+                        </Label>
+                    </Panel>
+                    <DockPanel x:Name="VideoDock" Grid.Row="1">
+                        <Label>
+                            这里是视频下菜单
+                        </Label>
+                    </DockPanel>
+                </Grid>
+            </Border>
+
+            <GridSplitter VerticalAlignment="Stretch" Background="#3C3C3C" Width="2" Grid.Column="1" ></GridSplitter>
+            
+            <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Column="2">
+                <Grid x:Name="AudioPanel" RowDefinitions="*, Auto" >
+                    <Panel x:Name="AudioPlay" Grid.Row="0">
+                        <Label>
+                            这里是频谱图/波形图面板
+                        </Label>
+                    </Panel>
+                    <DockPanel x:Name="AudioDock" Grid.Row="1">
+                        <Label>
+                            这里是音频下菜单
+                        </Label>
+                    </DockPanel>
+                </Grid>
+            </Border>
+            
+        </Grid>
+
+        <GridSplitter HorizontalAlignment="Stretch" Background="#3C3C3C" Height="2" Grid.Row="2" ></GridSplitter>
+
+        <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="3">
+            <Grid x:Name="SubtitlePanel" RowDefinitions="Auto, *, Auto">
+                <Grid x:Name="SubtitleItemInputPanel" Grid.Row="0" ColumnDefinitions="Auto, 120, Auto, 120, *" ColumnSpacing="5">
+                    <TextBlock Grid.Column="0"> 起始时间 </TextBlock>
+                    <TextBox Grid.Column="1" x:Name="StartTimeInput" Width="120"/>
+                    <TextBlock Grid.Column="2"> 终止时间 </TextBlock>
+                    <TextBox Grid.Column="3" x:Name="EndTimeInput" Width="120"/>
+                    <TextBox Grid.Column="4" x:Name="SubTextInput" HorizontalAlignment="Stretch"/>
+                </Grid>
+                <Panel x:Name="SubtitleListPanel" Grid.Row="1">
+                    <DataGrid ItemsSource="{Binding SubtitleList}" 
+                        SelectedItem="{Binding SelectedSubtitle, Mode=TwoWay}"
+                        CanUserResizeColumns="True" 
+                        CanUserSortColumns="False"
+                        GridLinesVisibility="All"
+                        IsReadOnly="True"
+                        RowHeight="26">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="#" 
+                                                Binding="{Binding $parent[DataGridRow].Index}" 
+                                                Width="40" 
+                                                IsReadOnly="True" />
+                            <DataGridTextColumn Header="开始时间" 
+                                                Binding="{Binding StartTimeStr}" 
+                                                Width="100"/>
+                            <DataGridTextColumn Header="结束时间" 
+                                                Binding="{Binding EndTimeStr}" 
+                                                Width="100"/>
+                            <!--DataGridTemplateColumn Header="字/秒" Width="70">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Border Background="{Binding WarningBackground}" 
+                                                HorizontalAlignment="Stretch" 
+                                                VerticalAlignment="Stretch">
+                                            <TextBlock Text="{Binding WordsPerSecond}" 
+                                                    HorizontalAlignment="Center" 
+                                                    VerticalAlignment="Center"/>
+                                        </Border>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn-->
+                            <DataGridTextColumn Header="文本" 
+                                                Binding="{Binding Text}" 
+                                                Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Panel>
+                <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="2">
+                    <StackPanel x:Name="SubtitleDock" Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+                        <Button Click="OpenSrtClick" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>
+                        <Button x:Name="BilingualMode" Background="#EFEFEF">双语模式</Button>
+                        <Button x:Name="CJKHalfWidthFix" Background="#EFEFEF">CJK半角修正</Button>
+                    </StackPanel>
+                </Border> 
+            </Grid>
+        </Border>
+        
+    </Grid>
+</Window>

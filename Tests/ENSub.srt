@@ -1,0 +1,2740 @@
+﻿1
+00:00:00,000 --> 00:00:04,261
+A couple days ago, we got the release of the new Minecraft 26.1 drop,
+
+2
+00:00:04,260 --> 00:00:06,655
+otherwise known as the Tiny Takeover.
+
+3
+00:00:06,655 --> 00:00:07,815
+Or as I like to call it,
+
+4
+00:00:07,820 --> 00:00:10,068
+the Wholesome Reddit Chungus Update!
+
+5
+00:00:10,070 --> 00:00:10,930
+Approved!
+
+6
+00:00:10,930 --> 00:00:13,845
+Yeah, I'm sorry to start this video out by immediately complaining,
+
+7
+00:00:13,850 --> 00:00:17,059
+but this is by far the weakest game drop we've gotten so far.
+
+8
+00:00:17,059 --> 00:00:18,608
+The main focus for this update
+
+9
+00:00:18,608 --> 00:00:21,700
+was changing the models and textures for all of the game's baby mobs.
+
+10
+00:00:21,700 --> 00:00:22,892
+Besides that though,
+
+11
+00:00:22,892 --> 00:00:26,125
+there was practically nothing of value added to this update.
+
+12
+00:00:26,125 --> 00:00:27,130
+But that's okay!
+
+13
+00:00:27,130 --> 00:00:29,032
+Look at the heckin' doggos!
+
+14
+00:00:29,619 --> 00:00:33,160
+I just don't interact with baby mobs pretty much at all,
+
+15
+00:00:33,160 --> 00:00:35,709
+and while I know every drop isn't going to appeal to me,
+
+16
+00:00:35,709 --> 00:00:38,405
+I feel like there still could have been a little bit more done here.
+
+17
+00:00:38,405 --> 00:00:40,715
+Spring to Life, for example, isn't my favorite drop,
+
+18
+00:00:40,715 --> 00:00:43,365
+but at least it gave us a few pretty helpful building blocks.
+
+19
+00:00:43,370 --> 00:00:44,794
+Baby mobs, in comparison,
+
+20
+00:00:44,790 --> 00:00:47,213
+are not a big aspect of the game at all.
+
+21
+00:00:47,210 --> 00:00:50,238
+At most, I pretty much just see them when I'm breeding animals.
+
+22
+00:00:50,238 --> 00:00:53,655
+I genuinely don't see this update changing how I play the game very much,
+
+23
+00:00:53,655 --> 00:00:56,285
+which is not the case for every other drop they've done.
+
+24
+00:00:56,290 --> 00:00:58,958
+Now that's not to say that the new baby mobs are ugly,
+
+25
+00:00:58,960 --> 00:01:00,001
+well at least not all of them,
+
+26
+00:01:00,353 --> 00:01:04,010
+I just don't think this update is all that interesting for the overall game.
+
+27
+00:01:04,010 --> 00:01:05,325
+But there were a few,
+
+28
+00:01:05,325 --> 00:01:06,725
+emphasis on the few,
+
+29
+00:01:06,730 --> 00:01:08,386
+features outside of just the babies,
+
+30
+00:01:08,390 --> 00:01:12,626
+so today, I'm going to be ranking every feature added in the 26.1 drop.
+
+31
+00:01:13,545 --> 00:01:15,395
+Okay, before half of you get confused,
+
+32
+00:01:15,400 --> 00:01:18,392
+YouTube lets creators test multiple titles and thumbnails at the same time
+
+33
+00:01:18,390 --> 00:01:19,683
+to see which does the best.
+
+34
+00:01:19,683 --> 00:01:22,940
+So half of you will get my standard 26.1 drop thumbnail,
+
+35
+00:01:22,940 --> 00:01:25,092
+whereas the other half will get the thumbnail about
+
+36
+00:01:25,092 --> 00:01:27,135
+ranking every baby mob in Minecraft.
+
+37
+00:01:27,135 --> 00:01:30,395
+There wasn't enough content to justify making this two separate videos,
+
+38
+00:01:30,400 --> 00:01:31,959
+so here's how this is going to work.
+
+39
+00:01:31,959 --> 00:01:35,192
+I'll be going down the 26.1 feature ranking list as normal,
+
+40
+00:01:35,192 --> 00:01:37,400
+and when we reach the entry containing the baby mobs,
+
+41
+00:01:37,400 --> 00:01:40,684
+we'll break off into the baby ranking before returning to the main video.
+
+42
+00:01:40,684 --> 00:01:43,360
+If you literally only care about ranking babies,
+
+43
+00:01:43,360 --> 00:01:46,255
+I'll include a chapter for that section so you can skip right to it.
+
+44
+00:01:46,255 --> 00:01:49,104
+Just know that we will be making fun of you for being a Redditor,
+
+45
+00:01:49,100 --> 00:01:51,200
+and you'll be missing out on some good content.
+
+46
+00:01:51,200 --> 00:01:54,815
+You'll never find out about this update's shocking polar bear change!
+
+47
+00:01:54,815 --> 00:01:56,958
+Anyway, as always, I'll be ranking these features
+
+48
+00:01:56,958 --> 00:01:59,242
+based on how much I like them for Java survival mode.
+
+49
+00:01:59,242 --> 00:02:01,208
+That means features that are creative mode exclusive
+
+50
+00:02:01,208 --> 00:02:02,821
+won't be included in this list.
+
+51
+00:02:02,820 --> 00:02:04,753
+So with that said, if you enjoyed this video,
+
+52
+00:02:04,750 --> 00:02:06,772
+please make sure to leave a like, subscribe to the channel,
+
+53
+00:02:06,772 --> 00:02:07,900
+and let's jump right in.
+
+54
+00:02:09,640 --> 00:02:13,090
+You know, on top of the additions in this update being lackluster,
+
+55
+00:02:13,085 --> 00:02:15,525
+this is our first drop in a while to have a change
+
+56
+00:02:15,525 --> 00:02:18,085
+that I think is honestly negative for the game.
+
+57
+00:02:18,085 --> 00:02:20,465
+In fact, it's actually got several.
+
+58
+00:02:20,470 --> 00:02:22,944
+Really not helping my opinion on this update.
+
+59
+00:02:22,944 --> 00:02:24,985
+Oh but look at the cute baby Strider!
+
+60
+00:02:24,985 --> 00:02:25,808
+Kicking us off,
+
+61
+00:02:25,808 --> 00:02:29,305
+we actually have a feature that was straight up removed from the game.
+
+62
+00:02:29,310 --> 00:02:30,000
+Twelve.
+
+63
+00:02:30,000 --> 00:02:32,000
+They killed the baby camel husk.
+
+64
+00:02:33,358 --> 00:02:35,192
+Yeah, I guess they just didn't want to bother
+
+65
+00:02:35,192 --> 00:02:36,970
+making a new baby variant for this guy,
+
+66
+00:02:36,970 --> 00:02:40,540
+so they completely removed the ability to have baby camel husks at all.
+
+67
+00:02:40,540 --> 00:02:41,940
+If you had one in your world,
+
+68
+00:02:41,940 --> 00:02:45,123
+they would just automatically be turned into an adult after the update.
+
+69
+00:02:45,123 --> 00:02:45,945
+Now granted,
+
+70
+00:02:45,945 --> 00:02:49,110
+I don't think you can actually get baby camel husks in survival,
+
+71
+00:02:49,110 --> 00:02:50,407
+but it's still pretty lame to just
+
+72
+00:02:50,410 --> 00:02:52,928
+remove the ability to spawn in the sky with commands.
+
+73
+00:02:53,158 --> 00:02:55,410
+Wait, I said this video was survival mode only.
+
+74
+00:02:55,410 --> 00:02:55,955
+Uh...
+
+75
+00:02:55,955 --> 00:02:56,710
+Wait guys look!
+
+76
+00:02:56,710 --> 00:02:58,999
+It's baby spooky camel drop!
+
+77
+00:03:02,997 --> 00:03:04,497
+He's gone now.
+
+78
+00:03:04,500 --> 00:03:08,075
+Baby spooky camel drop is lost media.
+
+79
+00:03:08,075 --> 00:03:10,805
+Now obviously this isn't like a devastating removal,
+
+80
+00:03:10,810 --> 00:03:13,292
+I doubt 99% of the playerbase will care,
+
+81
+00:03:13,292 --> 00:03:15,342
+but removing a feature for no real reason
+
+82
+00:03:15,342 --> 00:03:17,385
+kind of has to be last place by default.
+
+83
+00:03:17,385 --> 00:03:18,015
+Eleven.
+
+84
+00:03:18,015 --> 00:03:20,115
+Wandering trader name tag change.
+
+85
+00:03:20,115 --> 00:03:22,355
+Spoilers for a future entry.
+
+86
+00:03:22,355 --> 00:03:24,992
+The name tag finally got a crafting recipe in this update
+
+87
+00:03:24,992 --> 00:03:27,225
+requiring a piece of paper and a nugget.
+
+88
+00:03:27,230 --> 00:03:29,500
+That is extraordinarily cheap,
+
+89
+00:03:29,500 --> 00:03:32,558
+especially considering how rare name tags were before this update.
+
+90
+00:03:32,558 --> 00:03:34,700
+I mean they weren't like a shiny pokemon or something,
+
+91
+00:03:34,700 --> 00:03:36,575
+but you needed to either find them in structures
+
+92
+00:03:36,575 --> 00:03:38,625
+or get them from villager trading and fishing.
+
+93
+00:03:38,630 --> 00:03:41,317
+Name tags used to be the final trade unlocked,
+
+94
+00:03:41,317 --> 00:03:44,135
+and they were pretty expensive costing 20 emeralds each.
+
+95
+00:03:44,135 --> 00:03:45,920
+With how cheap they are to craft now,
+
+96
+00:03:45,920 --> 00:03:47,916
+that trade is a complete scam,
+
+97
+00:03:47,916 --> 00:03:49,550
+so they replaced it with something else.
+
+98
+00:03:49,550 --> 00:03:51,430
+We'll talk about that trade in a little bit,
+
+99
+00:03:51,430 --> 00:03:54,792
+but so far that tweak makes sense to go with the new crafting recipe.
+
+100
+00:03:54,792 --> 00:03:57,855
+So why did they give the wandering trader a name tag trade?
+
+101
+00:03:57,855 --> 00:04:00,005
+Yeah, this addition makes no sense to me.
+
+102
+00:04:00,010 --> 00:04:01,652
+Now whenever a wandering trader spawns,
+
+103
+00:04:01,652 --> 00:04:04,030
+it has a chance to trade a name tag for one emerald.
+
+104
+00:04:04,030 --> 00:04:06,125
+Why would you literally ever do that
+
+105
+00:04:06,125 --> 00:04:08,212
+with how cheap the crafting recipe is?
+
+106
+00:04:08,212 --> 00:04:09,960
+Since this is a wandering trader too,
+
+107
+00:04:09,960 --> 00:04:13,170
+there's no way to get this trade reliably even if you do want it.
+
+108
+00:04:13,170 --> 00:04:16,011
+In my opinion, this trade is completely worthless,
+
+109
+00:04:16,011 --> 00:04:19,380
+which is bad because the wandering trader has a very limited trade pool.
+
+110
+00:04:19,380 --> 00:04:23,250
+Each one will only spawn with nine completely random trades,
+
+111
+00:04:23,250 --> 00:04:25,175
+so all this name tag trade does
+
+112
+00:04:25,175 --> 00:04:27,736
+is make the actual useful trade slightly rarer
+
+113
+00:04:27,736 --> 00:04:30,076
+since now it's one of the potential trade options.
+
+114
+00:04:30,080 --> 00:04:33,726
+I mean why would you ever want to do this trade over the sugar cane trade
+
+115
+00:04:33,730 --> 00:04:35,740
+which are both competing for the same slot?
+
+116
+00:04:35,740 --> 00:04:38,999
+If you say it saves you from needing to get any ores for nuggets,
+
+117
+00:04:38,999 --> 00:04:40,820
+good luck using this without an anvil.
+
+118
+00:04:40,820 --> 00:04:43,020
+Even in game modes like skyblock or superflat,
+
+119
+00:04:43,020 --> 00:04:45,082
+where resources are super limited,
+
+120
+00:04:45,080 --> 00:04:47,537
+this trade is next to useless with the new recipe.
+
+121
+00:04:47,537 --> 00:04:49,875
+So in my opinion, this is a negative addition
+
+122
+00:04:49,880 --> 00:04:52,606
+that just makes the wandering trader less likely to be useful.
+
+123
+00:04:52,606 --> 00:04:54,530
+Also I didn't realize this before getting footage,
+
+124
+00:04:54,530 --> 00:04:57,275
+but the wandering trader can also now trade golden dandelions.
+
+125
+00:04:57,280 --> 00:05:00,608
+And I only found that out because it took me forever to get the name tag trade.
+
+126
+00:05:04,810 --> 00:05:05,280
+Ten.
+
+127
+00:05:05,280 --> 00:05:07,615
+Adult black dot horse texture change.
+
+128
+00:05:07,615 --> 00:05:09,490
+In order to match with its baby variant,
+
+129
+00:05:09,490 --> 00:05:12,222
+the adult black dot horse type also got a new texture.
+
+130
+00:05:14,636 --> 00:05:16,660
+I think it's way uglier than the original.
+
+131
+00:05:16,655 --> 00:05:19,159
+The black dots are integrated far less smoothly
+
+132
+00:05:19,160 --> 00:05:22,258
+and just feel like they were randomly thrown up on the horse's texture.
+
+133
+00:05:22,258 --> 00:05:26,310
+I don't understand why they didn't just change the baby to match the original adult horse,
+
+134
+00:05:26,310 --> 00:05:28,425
+because now both of them just look ugly.
+
+135
+00:05:28,430 --> 00:05:29,018
+Nine.
+
+136
+00:05:29,020 --> 00:05:32,192
+Baby polar bears no longer attack foxes.
+
+137
+00:05:32,192 --> 00:05:35,020
+Bet you guys are so happy you didn't skip to the baby ranking.
+
+138
+00:05:35,020 --> 00:05:37,045
+I didn't know they did this in the first place,
+
+139
+00:05:37,050 --> 00:05:39,075
+but I guess it's tragic that we can no longer watch
+
+140
+00:05:39,080 --> 00:05:40,825
+BABY FIGHTS!
+
+141
+00:05:40,825 --> 00:05:41,240
+Eight.
+
+142
+00:05:41,240 --> 00:05:42,510
+New animal noises.
+
+143
+00:05:42,510 --> 00:05:44,392
+Okay, we are finally starting to get into
+
+144
+00:05:44,392 --> 00:05:46,146
+the additions that are more positive.
+
+145
+00:05:46,146 --> 00:05:48,070
+Several mobs got new sound variants,
+
+146
+00:05:48,065 --> 00:05:50,880
+those being the cat, pig, chicken, and cow.
+
+147
+00:05:50,880 --> 00:05:53,875
+If you remember the wolf noises that got added a couple updates ago,
+
+148
+00:05:53,875 --> 00:05:55,600
+this works in a very similar way.
+
+149
+00:05:55,600 --> 00:05:57,145
+The classic sounds still exist,
+
+150
+00:05:57,150 --> 00:05:59,258
+but each of these animals also have a chance to spawn
+
+151
+00:05:59,258 --> 00:06:00,821
+with a different set of noises.
+
+152
+00:06:00,820 --> 00:06:03,393
+These noises are also independent from their biome variant,
+
+153
+00:06:03,393 --> 00:06:03,980
+so there are now
+
+154
+00:06:03,980 --> 00:06:07,000
+multiple combinations of sounds and textures for each of these mobs.
+
+155
+00:06:06,995 --> 00:06:09,500
+This is far less expansive compared to the wolves though,
+
+156
+00:06:09,500 --> 00:06:12,776
+as each of these only get one or two new sets of sounds this update.
+
+157
+00:06:12,776 --> 00:06:14,495
+Cats can have royal sounds,
+
+158
+00:06:15,205 --> 00:06:17,194
+pigs can have mini or big sounds,
+
+159
+00:06:17,828 --> 00:06:19,545
+chickens can have picky sounds,
+
+160
+00:06:20,645 --> 00:06:22,444
+and cows can have moody sounds.
+
+161
+00:06:26,327 --> 00:06:29,320
+Now the reason this is the lowest of the positive changes
+
+162
+00:06:29,320 --> 00:06:32,475
+is because I just have such a hard time getting used to these.
+
+163
+00:06:32,475 --> 00:06:33,935
+Texture changes I can handle,
+
+164
+00:06:33,935 --> 00:06:37,510
+but for some reason I have a lot harder of a time accepting sound changes,
+
+165
+00:06:37,510 --> 00:06:38,825
+like I'm still not very used to
+
+166
+00:06:38,825 --> 00:06:40,600
+hearing the different wolf variants in the game.
+
+167
+00:06:40,600 --> 00:06:42,260
+Call me nostalgia blind all you want,
+
+168
+00:06:42,260 --> 00:06:43,442
+but I have a feeling that I'll just
+
+169
+00:06:43,440 --> 00:06:45,722
+prefer the classic sounds for each of these animals.
+
+170
+00:06:45,720 --> 00:06:46,374
+Seven.
+
+171
+00:06:46,374 --> 00:06:47,660
+New librarian trade.
+
+172
+00:06:47,658 --> 00:06:48,885
+As I mentioned earlier,
+
+173
+00:06:48,885 --> 00:06:51,075
+the librarian had to get a new master level trade
+
+174
+00:06:51,075 --> 00:06:53,105
+to replace the previous nametag trade.
+
+175
+00:06:53,105 --> 00:06:55,135
+Now, instead of getting a nametag,
+
+176
+00:06:55,140 --> 00:06:57,611
+you'll unlock the groundbreaking trade of...
+
+177
+00:06:57,610 --> 00:06:59,120
+a red and yellow candle.
+
+178
+00:06:59,120 --> 00:07:00,200
+Or as I like to call it,
+
+179
+00:07:00,200 --> 00:07:01,697
+the ketchup and mustard trade.
+
+180
+00:07:01,700 --> 00:07:04,216
+Okay, this is far from the most exciting trade,
+
+181
+00:07:04,216 --> 00:07:07,350
+but I do see more value in it than the wandering trader nametag.
+
+182
+00:07:07,350 --> 00:07:10,160
+It's kind of nice to have an easy way to get candles without bees,
+
+183
+00:07:10,160 --> 00:07:13,058
+but it's weird that it's only for the red and yellow candles.
+
+184
+00:07:13,060 --> 00:07:15,502
+Maybe you'll be able to get other colors from different biomes
+
+185
+00:07:15,502 --> 00:07:18,150
+when they finally remember about the villager rebalance update.
+
+186
+00:07:18,150 --> 00:07:20,190
+I doubt I'm going to use this trade much at all,
+
+187
+00:07:20,190 --> 00:07:23,451
+but I do think it makes at least a little sense as a replacement trade.
+
+188
+00:07:23,450 --> 00:07:23,990
+Six.
+
+189
+00:07:23,990 --> 00:07:25,520
+Nametag crafting recipe.
+
+190
+00:07:25,520 --> 00:07:27,600
+Sorry again for spoiling you all earlier,
+
+191
+00:07:27,600 --> 00:07:30,100
+but yes, the nametag does have a crafting recipe now.
+
+192
+00:07:30,100 --> 00:07:32,850
+It takes one piece of paper and a nugget of any kind,
+
+193
+00:07:32,850 --> 00:07:34,245
+making it extremely cheap.
+
+194
+00:07:34,245 --> 00:07:37,445
+Honestly though, I don't really know if I like this addition.
+
+195
+00:07:37,445 --> 00:07:40,208
+Nametags acted as a good reward for exploring structures
+
+196
+00:07:40,208 --> 00:07:41,535
+and getting lucky while fishing.
+
+197
+00:07:41,535 --> 00:07:42,755
+They weren't too rare,
+
+198
+00:07:42,760 --> 00:07:44,558
+but it made each structure that could be found in
+
+199
+00:07:44,558 --> 00:07:46,228
+a bit more exciting to loot.
+
+200
+00:07:46,228 --> 00:07:48,320
+If you did desperately need nametags,
+
+201
+00:07:48,320 --> 00:07:51,139
+then you could always trade with the librarian to get as many as you need
+
+202
+00:07:51,139 --> 00:07:53,195
+at the cost of a pretty good chunk of emeralds.
+
+203
+00:07:53,195 --> 00:07:55,585
+I personally feel like that was pretty well balanced,
+
+204
+00:07:55,590 --> 00:07:59,192
+especially since most players never really need that many nametags.
+
+205
+00:07:59,192 --> 00:08:02,292
+Maybe if you're working on a project where you need to name a ton of mobs
+
+206
+00:08:02,290 --> 00:08:03,625
+to keep them from despawning,
+
+207
+00:08:03,630 --> 00:08:05,529
+but I feel like if you're doing something like that,
+
+208
+00:08:05,530 --> 00:08:07,843
+you probably have the skill to just get a villager.
+
+209
+00:08:07,843 --> 00:08:10,430
+I'm not going to say this addition is necessarily bad,
+
+210
+00:08:10,430 --> 00:08:12,420
+I mean it did crack the top half of the list,
+
+211
+00:08:12,420 --> 00:08:13,975
+I just don't think it was needed
+
+212
+00:08:13,975 --> 00:08:16,865
+and makes structures a little bit less exciting to explore.
+
+213
+00:08:16,870 --> 00:08:17,537
+Five.
+
+214
+00:08:17,537 --> 00:08:18,655
+New rabbit model.
+
+215
+00:08:18,655 --> 00:08:20,435
+On top of getting new baby versions,
+
+216
+00:08:20,440 --> 00:08:23,586
+the adult rabbits were also completely overhauled here.
+
+217
+00:08:23,590 --> 00:08:26,003
+They are not beating their reddit chungus allegations.
+
+218
+00:08:26,003 --> 00:08:29,105
+Personally, I never had an issue with the original rabbit model,
+
+219
+00:08:29,105 --> 00:08:31,080
+but a lot of others seem to think it sucked,
+
+220
+00:08:31,080 --> 00:08:32,608
+so I'm happy for them, I guess.
+
+221
+00:08:32,610 --> 00:08:34,862
+For me, these feel maybe a little too fat,
+
+222
+00:08:34,862 --> 00:08:36,580
+but whatever, I don't really care.
+
+223
+00:08:36,580 --> 00:08:38,480
+It's nice they have new animations too,
+
+224
+00:08:38,480 --> 00:08:40,076
+I mean look how cute this one is.
+
+225
+00:08:41,765 --> 00:08:43,510
+Four, the new baby mobs.
+
+226
+00:08:43,505 --> 00:08:46,192
+Alright, we have finally rejoined with all of the people
+
+227
+00:08:46,190 --> 00:08:48,092
+that used the baby chapter earlier.
+
+228
+00:08:48,731 --> 00:08:51,557
+Those dweebs don't even know about the polar bear change.
+
+229
+00:08:52,925 --> 00:08:54,408
+But yes, this is where I'm going to be
+
+230
+00:08:54,408 --> 00:08:56,741
+grouping all of the baby mob retextures together,
+
+231
+00:08:56,741 --> 00:08:57,953
+but with so many babies,
+
+232
+00:08:57,950 --> 00:08:59,603
+some are bound to be worse than others.
+
+233
+00:08:59,603 --> 00:09:02,975
+So now it's finally time to rank every baby mob retexture
+
+234
+00:09:02,975 --> 00:09:04,657
+from the worst to the best.
+
+235
+00:09:04,660 --> 00:09:07,542
+I'm simply judging these based on how cute I think each of them are.
+
+236
+00:09:07,540 --> 00:09:09,904
+Sorry if your favorite place is low down on the list,
+
+237
+00:09:09,904 --> 00:09:11,275
+you should just get better taste.
+
+238
+00:09:11,275 --> 00:09:13,225
+We'll be running through these pretty quick because we have
+
+239
+00:09:13,225 --> 00:09:15,125
+71 babies to look at.
+
+240
+00:09:15,130 --> 00:09:16,491
+There are technically more,
+
+241
+00:09:16,491 --> 00:09:20,019
+but I decided to combine the horse, llama, and axolotl variants together
+
+242
+00:09:20,019 --> 00:09:21,850
+since my thoughts are the same for each of them.
+
+243
+00:09:21,850 --> 00:09:22,920
+But no more delaying,
+
+244
+00:09:22,920 --> 00:09:24,310
+let's get into this list.
+
+245
+00:09:24,310 --> 00:09:27,360
+71, the zombie villager, and 70, the villager.
+
+246
+00:09:27,360 --> 00:09:30,935
+These two babies are absolutely horrendous in my opinion.
+
+247
+00:09:30,935 --> 00:09:32,342
+It looks like all they did
+
+248
+00:09:32,342 --> 00:09:35,391
+was just delete the two bottom rows of pixels from the baby's head
+
+249
+00:09:35,391 --> 00:09:36,420
+and called it a day.
+
+250
+00:09:36,420 --> 00:09:38,442
+The reason I'm putting the zombie villager in last
+
+251
+00:09:38,440 --> 00:09:40,536
+is because it can visibly wear armor.
+
+252
+00:09:40,536 --> 00:09:42,065
+To go with the baby mob changes,
+
+253
+00:09:42,065 --> 00:09:44,240
+they also made new textures for baby armor,
+
+254
+00:09:44,240 --> 00:09:47,149
+and I honestly don't like how they look at all.
+
+255
+00:09:47,149 --> 00:09:48,570
+Some pieces are okay,
+
+256
+00:09:48,570 --> 00:09:51,270
+but the boots in particular are really bad.
+
+257
+00:09:51,270 --> 00:09:52,958
+What are the-
+
+258
+00:09:52,960 --> 00:09:57,244
+What's even more embarrassing is that they originally looked even worse.
+
+259
+00:09:57,790 --> 00:09:59,658
+Luckily the backlash was so great
+
+260
+00:09:59,658 --> 00:10:01,352
+that they went back and fixed these a bit.
+
+261
+00:10:01,352 --> 00:10:04,475
+But I still think I prefer the original look from before this drop.
+
+262
+00:10:04,475 --> 00:10:08,385
+That's especially because baby armor does not display armor trims now,
+
+263
+00:10:08,390 --> 00:10:10,480
+which was not the case in previous updates.
+
+264
+00:10:10,480 --> 00:10:12,175
+That's just a straight downgrade,
+
+265
+00:10:12,180 --> 00:10:12,792
+and I can't believe
+
+266
+00:10:12,792 --> 00:10:15,533
+they didn't at least try to make some armor trim textures.
+
+267
+00:10:15,533 --> 00:10:18,225
+But whatever, these two are easily my least favorite babies
+
+268
+00:10:18,225 --> 00:10:20,310
+and are far worse than what we had originally.
+
+269
+00:10:20,310 --> 00:10:23,930
+69, the zombie, 68, the husk, and 67, the gurgle.
+
+270
+00:10:23,930 --> 00:10:26,515
+I'm sorry, I hate how all of their faces look.
+
+271
+00:10:26,515 --> 00:10:28,392
+They have a similar problem as the villagers
+
+272
+00:10:28,392 --> 00:10:30,875
+where it just looks like they shaved pixels off of their head.
+
+273
+00:10:30,875 --> 00:10:33,305
+I hate how the eyes and mouth touch the edges.
+
+274
+00:10:33,305 --> 00:10:35,805
+The retexture just looks extremely sloppy.
+
+275
+00:10:35,805 --> 00:10:38,742
+That's really bad here because I feel like the baby zombie
+
+276
+00:10:38,742 --> 00:10:41,355
+is probably the most iconic baby in the game.
+
+277
+00:10:41,355 --> 00:10:42,800
+You know, chicken jockey and all that.
+
+278
+00:10:42,800 --> 00:10:45,008
+I really would have thought that they'd put more effort into
+
+279
+00:10:45,008 --> 00:10:46,926
+at least making this guy look good,
+
+280
+00:10:46,926 --> 00:10:49,600
+but no, it's definitely worse than the original now.
+
+281
+00:10:49,595 --> 00:10:51,290
+Add on the worse armor as well,
+
+282
+00:10:51,290 --> 00:10:52,592
+and it's clear that Mojang just
+
+283
+00:10:52,592 --> 00:10:55,414
+didn't do a fantastic job on the humanoid babies.
+
+284
+00:10:55,414 --> 00:10:57,708
+Of this group, I like the baby drown the best
+
+285
+00:10:57,708 --> 00:11:00,245
+just because it got a unique name being the gurgle.
+
+286
+00:11:00,250 --> 00:11:01,342
+That is kind of funny.
+
+287
+00:11:01,892 --> 00:11:02,800
+Ben gurgled.
+
+288
+00:11:02,800 --> 00:11:04,330
+66, the strider.
+
+289
+00:11:04,330 --> 00:11:06,760
+This thing is just absurdly ugly.
+
+290
+00:11:06,760 --> 00:11:08,573
+Look at the top of his head.
+
+291
+00:11:09,110 --> 00:11:11,680
+I just can't find anything to like about this model.
+
+292
+00:11:11,680 --> 00:11:12,970
+It just looks gross.
+
+293
+00:11:12,970 --> 00:11:14,385
+65, the sheep.
+
+294
+00:11:14,385 --> 00:11:17,730
+It really feels like there was not much effort put into this design at all.
+
+295
+00:11:17,730 --> 00:11:19,392
+Compared to the other main farm animals
+
+296
+00:11:19,392 --> 00:11:21,430
+that have really cute baby redesigns,
+
+297
+00:11:21,430 --> 00:11:24,054
+the sheep is left with this weird ugly mess.
+
+298
+00:11:24,050 --> 00:11:28,610
+He's got a horrible hairline and his entire design just feels too simplistic.
+
+299
+00:11:28,610 --> 00:11:30,375
+It doesn't even feel like this baby design
+
+300
+00:11:30,375 --> 00:11:32,643
+should grow up into what we have for the sheep.
+
+301
+00:11:32,643 --> 00:11:33,725
+Also, can we just talk about
+
+302
+00:11:33,725 --> 00:11:36,450
+how the Mojang devs seem to hate the sheep for some reason?
+
+303
+00:11:36,450 --> 00:11:38,415
+It's one of the core four farm animals,
+
+304
+00:11:38,415 --> 00:11:41,100
+but it's treated like absolute garbage in comparison.
+
+305
+00:11:41,100 --> 00:11:43,095
+It got no buy-in variants,
+
+306
+00:11:43,095 --> 00:11:44,540
+no new sound effects,
+
+307
+00:11:44,540 --> 00:11:46,565
+and the worst looking baby by far.
+
+308
+00:11:46,570 --> 00:11:50,052
+What could the sheep have possibly done to deserve this treatment?
+
+309
+00:11:50,938 --> 00:11:52,540
+Because sheep killed my grandma, okay?
+
+310
+00:11:52,535 --> 00:11:55,605
+64, zombified piglin and 63, piglin.
+
+311
+00:11:55,610 --> 00:11:58,554
+These two are definitely a lot cuter than what we saw with the zombies,
+
+312
+00:11:58,554 --> 00:12:00,510
+but there are still a few weird things about them.
+
+313
+00:12:00,510 --> 00:12:02,895
+Of course, I already talked about how bad the armor is,
+
+314
+00:12:02,895 --> 00:12:04,265
+but for the zombified piglin,
+
+315
+00:12:04,265 --> 00:12:07,210
+I just don't like how his nose overlaps with his eyehole.
+
+316
+00:12:07,210 --> 00:12:09,515
+That's not the case for the adult zombified piglins,
+
+317
+00:12:09,515 --> 00:12:11,535
+so it kind of comes off as a mistake here.
+
+318
+00:12:11,540 --> 00:12:14,546
+Items in these babies' hands also clip into their heads sometimes,
+
+319
+00:12:14,546 --> 00:12:15,990
+which isn't the worst thing ever,
+
+320
+00:12:15,990 --> 00:12:17,399
+but it does look a bit weird.
+
+321
+00:12:17,399 --> 00:12:18,800
+62, hoglin.
+
+322
+00:12:18,800 --> 00:12:22,179
+His eyes are way too massive and his head is a bit wide,
+
+323
+00:12:22,180 --> 00:12:24,116
+but other than that, this is just okay.
+
+324
+00:12:24,116 --> 00:12:25,750
+61, cold cow.
+
+325
+00:12:25,750 --> 00:12:28,705
+I'm putting this one much lower than the other cow variants because,
+
+326
+00:12:28,705 --> 00:12:29,945
+correct me if I'm wrong,
+
+327
+00:12:29,945 --> 00:12:32,550
+but the horns here are just not correct on this guy.
+
+328
+00:12:32,550 --> 00:12:35,071
+The cold cow's horns normally point straight ahead,
+
+329
+00:12:35,071 --> 00:12:37,750
+so it's weird that the baby model has them pointing upward.
+
+330
+00:12:37,750 --> 00:12:39,955
+Maybe when this type of cow is a baby in real life,
+
+331
+00:12:39,955 --> 00:12:41,420
+their horns are like this,
+
+332
+00:12:41,420 --> 00:12:43,366
+but to me, it just seems odd.
+
+333
+00:12:43,366 --> 00:12:44,900
+60, the killer bunny.
+
+334
+00:12:44,900 --> 00:12:46,800
+Look at the five head on this thing.
+
+335
+00:12:48,365 --> 00:12:50,454
+Since the killer bunny's eyes are horizontal
+
+336
+00:12:50,454 --> 00:12:52,330
+instead of vertical like the other rabbits,
+
+337
+00:12:52,330 --> 00:12:55,395
+his face does not fit on the baby model nearly as well.
+
+338
+00:12:55,395 --> 00:12:58,070
+Maybe it's the point that he's supposed to be a little ugly,
+
+339
+00:12:58,070 --> 00:12:59,830
+but this might be a bit too much.
+
+340
+00:12:59,830 --> 00:13:03,958
+59, the mule, 58, the skeleton horse, 57, the donkey,
+
+341
+00:13:03,958 --> 00:13:06,845
+56, the horse, and 55, the zombie horse.
+
+342
+00:13:06,850 --> 00:13:09,518
+I'm keeping all of these together for a couple reasons.
+
+343
+00:13:09,520 --> 00:13:12,540
+Obviously, for starters, they're all some kind of horse-like model.
+
+344
+00:13:13,330 --> 00:13:15,492
+I'm not separating all of the different horse colors
+
+345
+00:13:15,492 --> 00:13:18,890
+because there's like a million of them and feel the exact same for each one.
+
+346
+00:13:18,890 --> 00:13:21,275
+The issue with this group of babies is that I feel like
+
+347
+00:13:21,275 --> 00:13:23,585
+the head is just a bit too wide and blocky.
+
+348
+00:13:23,585 --> 00:13:26,185
+Like, there's some actual shape to an adult horse's head,
+
+349
+00:13:26,185 --> 00:13:29,550
+but the babies just get a rectangle which doesn't look very good.
+
+350
+00:13:29,550 --> 00:13:30,810
+As for their order here,
+
+351
+00:13:30,810 --> 00:13:32,442
+I like the mule and donkey the least
+
+352
+00:13:32,442 --> 00:13:34,665
+because their eye just being a single black pixel
+
+353
+00:13:34,665 --> 00:13:37,440
+doesn't look as good as the horse which has white in his eyes.
+
+354
+00:13:37,435 --> 00:13:38,855
+Also, as an additional note,
+
+355
+00:13:38,860 --> 00:13:41,240
+you can't get the skeleton and zombie horses in survival,
+
+356
+00:13:41,240 --> 00:13:44,235
+but they got a retexture here so I feel like it made sense to include them.
+
+357
+00:13:44,235 --> 00:13:47,175
+Hey, wait a minute, why'd Mojang do them and not the camel husk?
+
+358
+00:13:47,175 --> 00:13:48,840
+Free him, he doesn't deserve this!
+
+359
+00:13:48,840 --> 00:13:50,350
+54, the llamas.
+
+360
+00:13:50,350 --> 00:13:52,858
+Like the horse, I'm including all the colors together here
+
+361
+00:13:52,858 --> 00:13:54,175
+along with the trader version.
+
+362
+00:13:54,175 --> 00:13:56,270
+I've heard a lot of people say these guys look weird,
+
+363
+00:13:56,270 --> 00:13:57,365
+and while I do agree,
+
+364
+00:13:57,365 --> 00:13:59,040
+I also just kind of find them funny.
+
+365
+00:13:59,040 --> 00:14:01,092
+The lack of eyebrows compared to the adult version
+
+366
+00:14:01,092 --> 00:14:03,065
+make these guys have a pretty funny stare.
+
+367
+00:14:03,070 --> 00:14:05,678
+53 - 47, most of the cats.
+
+368
+00:14:05,680 --> 00:14:06,966
+From this point on in the list,
+
+369
+00:14:06,966 --> 00:14:10,350
+we've got the babies that I think are improvements over what we had before.
+
+370
+00:14:10,350 --> 00:14:11,408
+It's a bit of a shame
+
+371
+00:14:11,408 --> 00:14:13,970
+that about a third of the babies are downgrades in my eyes,
+
+372
+00:14:13,970 --> 00:14:15,820
+but at least they got most of them correct.
+
+373
+00:14:15,820 --> 00:14:17,769
+The kittens are all extremely cute.
+
+374
+00:14:17,769 --> 00:14:18,758
+I think in a vacuum,
+
+375
+00:14:18,758 --> 00:14:21,640
+their proportions are pretty perfect for making them look very cuddly.
+
+376
+00:14:21,640 --> 00:14:25,215
+However, issues arise when you also look at the adult cats.
+
+377
+00:14:25,529 --> 00:14:28,056
+Why do the babies have bigger heads than the adults?
+
+378
+00:14:28,056 --> 00:14:31,015
+Like, do the adults just get stupider when they grow up or something?
+
+379
+00:14:31,015 --> 00:14:32,480
+This isn't a huge deal,
+
+380
+00:14:32,480 --> 00:14:35,050
+but it makes the kittens feel a lot bigger than they should be.
+
+381
+00:14:35,050 --> 00:14:36,092
+Now, the reason I decided to
+
+382
+00:14:36,092 --> 00:14:38,936
+split up some of the cats and not them all under one number
+
+383
+00:14:38,936 --> 00:14:40,992
+is because I do think certain cat breeds
+
+384
+00:14:40,992 --> 00:14:43,265
+look a lot better with the baby model than others.
+
+385
+00:14:43,265 --> 00:14:45,325
+The Persian cat is definitely my least favorite
+
+386
+00:14:45,325 --> 00:14:46,665
+since it doesn't have a snout.
+
+387
+00:14:46,670 --> 00:14:49,131
+It kinda just makes it look like it has a pancake face.
+
+388
+00:14:49,131 --> 00:14:50,855
+The other breeds that I put down here,
+
+389
+00:14:50,855 --> 00:14:56,045
+in order, are Siamese, White, Tuxedo, Black, Calico, and Tabby.
+
+390
+00:14:56,045 --> 00:14:59,408
+All of these I don't love as much just because I think the one-pixel eyes
+
+391
+00:14:59,408 --> 00:15:00,525
+look a bit weird on them.
+
+392
+00:15:00,530 --> 00:15:03,025
+Luckily, there are four more cat breeds that I like better
+
+393
+00:15:03,025 --> 00:15:04,323
+that we'll be seeing in a bit,
+
+394
+00:15:04,320 --> 00:15:07,080
+but these are all held back because of their haunting stares.
+
+395
+00:15:09,051 --> 00:15:10,650
+46, the Dolphin.
+
+396
+00:15:10,650 --> 00:15:11,910
+The model looks pretty good,
+
+397
+00:15:11,910 --> 00:15:14,825
+but this is another case of a baby mob having a one-pixel eye
+
+398
+00:15:14,825 --> 00:15:16,045
+that I don't really love.
+
+399
+00:15:16,045 --> 00:15:18,860
+45, the armadillo, and 44, the polar bear.
+
+400
+00:15:18,860 --> 00:15:21,305
+Honestly, if you told me these two were unchanged,
+
+401
+00:15:21,305 --> 00:15:22,675
+I'd completely believe you.
+
+402
+00:15:22,675 --> 00:15:25,345
+When you look at them side-by-side with their original versions,
+
+403
+00:15:25,350 --> 00:15:26,801
+it does become obvious,
+
+404
+00:15:26,801 --> 00:15:29,210
+but these are not mobs I interact with very much.
+
+405
+00:15:29,210 --> 00:15:31,098
+43, the Axolotls.
+
+406
+00:15:31,098 --> 00:15:33,670
+I like that their heads are now noticeably bigger than their torso.
+
+407
+00:15:33,670 --> 00:15:36,895
+It makes them look a lot cuter and more in line with other baby mobs.
+
+408
+00:15:36,900 --> 00:15:39,350
+42, the aquid, and 41, the glow squid.
+
+409
+00:15:39,350 --> 00:15:43,020
+Honestly, I keep forgetting they even added the baby squids to Java Edition
+
+410
+00:15:43,020 --> 00:15:44,565
+in the Bundles of Bravery drop.
+
+411
+00:15:44,565 --> 00:15:46,095
+We still can't breed squids,
+
+412
+00:15:46,095 --> 00:15:47,200
+which is unfortunate,
+
+413
+00:15:47,200 --> 00:15:50,195
+but at least on the rare occasions we do see the babies in the wild,
+
+414
+00:15:50,200 --> 00:15:51,389
+they are pretty cute.
+
+415
+00:15:51,390 --> 00:15:54,275
+I like how stubby these two are compared to their adult versions.
+
+416
+00:15:54,280 --> 00:15:56,241
+They definitely give off plushy vibes.
+
+417
+00:15:56,241 --> 00:15:57,955
+I mean, that is kind of this whole update.
+
+418
+00:15:57,960 --> 00:16:00,930
+I'm sure they're gonna sell a ton of baby merchandise in the future,
+
+419
+00:16:00,930 --> 00:16:03,200
+but these two are especially plush-feeling.
+
+420
+00:16:03,200 --> 00:16:05,805
+40-34, the rabbits.
+
+421
+00:16:05,805 --> 00:16:07,358
+Except you!
+
+422
+00:16:07,360 --> 00:16:09,391
+Unlike the Killer Bunny we saw before,
+
+423
+00:16:09,391 --> 00:16:12,510
+these rabbits have vertical eyes which match their heads much better.
+
+424
+00:16:12,510 --> 00:16:16,462
+Honestly, I prefer the baby look a lot more to their adult versions.
+
+425
+00:16:16,462 --> 00:16:19,742
+Their proportions look better to me than the gigantic rectangle bodies
+
+426
+00:16:19,742 --> 00:16:21,192
+seen on the adult rabbits.
+
+427
+00:16:21,192 --> 00:16:23,680
+Their order here is just based on which color I like best,
+
+428
+00:16:23,680 --> 00:16:29,211
+so it goes black, toast, white, white splotched, gold, brown, and salt.
+
+429
+00:16:29,211 --> 00:16:30,630
+33, the zoglin.
+
+430
+00:16:30,630 --> 00:16:32,630
+Okay, I don't know exactly what it is,
+
+431
+00:16:32,630 --> 00:16:35,042
+but the eyes on this guy just look so much better to me
+
+432
+00:16:35,042 --> 00:16:36,720
+than they did with the regular Hoglin.
+
+433
+00:16:36,720 --> 00:16:39,160
+Maybe it's because half of his face has been melted off,
+
+434
+00:16:39,160 --> 00:16:42,415
+but whatever it is, I do like the zoglin much more than the hoglin.
+
+435
+00:16:42,415 --> 00:16:43,920
+32, the goat.
+
+436
+00:16:43,920 --> 00:16:46,251
+What's Mario doing on this list?
+
+437
+00:16:46,881 --> 00:16:49,580
+This guy just looks really cute, not much else to say on that.
+
+438
+00:16:49,580 --> 00:16:51,055
+31, the snifflet.
+
+439
+00:16:51,055 --> 00:16:54,460
+This guy does come close to having a head that's a little bit too wide,
+
+440
+00:16:54,460 --> 00:16:55,880
+but I think it works on the sniffer
+
+441
+00:16:55,880 --> 00:16:58,585
+because his massive nose is the whole focus of the mob.
+
+442
+00:16:58,585 --> 00:17:00,225
+30, the panda.
+
+443
+00:17:00,225 --> 00:17:01,192
+Guys,
+
+444
+00:17:01,190 --> 00:17:04,165
+I think the Panda got possessed by Herobrine.
+
+445
+00:17:04,658 --> 00:17:05,540
+Oh no, wait, we're good.
+
+446
+00:17:05,540 --> 00:17:07,445
+The white eyes are maybe a little weird,
+
+447
+00:17:07,445 --> 00:17:09,085
+but I honestly kind of like them too.
+
+448
+00:17:09,085 --> 00:17:11,820
+It's also nice to get variants for all the different panda types.
+
+449
+00:17:11,820 --> 00:17:13,525
+My favorite is probably the playful one
+
+450
+00:17:13,525 --> 00:17:15,210
+just for being full of joy and whimsy.
+
+451
+00:17:15,210 --> 00:17:16,540
+29, the turtle.
+
+452
+00:17:16,540 --> 00:17:17,642
+These are very cute,
+
+453
+00:17:17,642 --> 00:17:20,618
+I love how much they're able to detail here with so little pixels.
+
+454
+00:17:20,618 --> 00:17:24,030
+The only negative that I have is that they feel a bit too big.
+
+455
+00:17:24,030 --> 00:17:26,380
+The original baby turtles were minuscule,
+
+456
+00:17:26,380 --> 00:17:28,235
+and I think that was a big part of their charm.
+
+457
+00:17:28,235 --> 00:17:29,825
+They are still pretty small now,
+
+458
+00:17:29,825 --> 00:17:31,358
+but I think the mob would've been cuter
+
+459
+00:17:31,358 --> 00:17:33,440
+if they shrunk it down just a little bit further.
+
+460
+00:17:33,440 --> 00:17:34,605
+28, the bee.
+
+461
+00:17:34,605 --> 00:17:38,065
+This is another case where I think I prefer the baby mob over the adult,
+
+462
+00:17:38,065 --> 00:17:40,295
+the size just fits with being a bee a lot better.
+
+463
+00:17:40,295 --> 00:17:43,342
+It's also very funny when a baby bee interacts with a flower
+
+464
+00:17:43,342 --> 00:17:45,760
+because it gets absolutely covered in pollen.
+
+465
+00:17:45,760 --> 00:17:48,115
+27 - 25, the pigs.
+
+466
+00:17:48,115 --> 00:17:51,358
+We finally got our second member of the core four farm animals
+
+467
+00:17:51,360 --> 00:17:53,488
+after seeing the sheep quite a while ago.
+
+468
+00:17:53,953 --> 00:17:56,519
+Cold cows aren't real.
+
+469
+00:17:56,519 --> 00:17:59,562
+They did a really good job chipifying this mob's design.
+
+470
+00:17:59,562 --> 00:18:00,930
+I'm not exactly sure why,
+
+471
+00:18:00,925 --> 00:18:03,892
+but I think the singular pixel eyes also work better on the pig
+
+472
+00:18:03,892 --> 00:18:06,058
+compared to some of the other mobs we've already seen.
+
+473
+00:18:06,060 --> 00:18:09,521
+As for their order, I just put them in based on which pig biome I like best,
+
+474
+00:18:09,520 --> 00:18:12,005
+so it goes cold, warm, then classic.
+
+475
+00:18:12,005 --> 00:18:13,708
+24, the camel.
+
+476
+00:18:13,708 --> 00:18:15,158
+They took his hump!
+
+477
+00:18:15,158 --> 00:18:17,088
+I'm assuming that's how camels are in real life,
+
+478
+00:18:17,088 --> 00:18:18,258
+and I think that was a good change
+
+479
+00:18:18,258 --> 00:18:20,820
+to make the baby stand out even more from the adults.
+
+480
+00:18:20,815 --> 00:18:24,975
+But the question is, are baby camels better than adult camels
+
+481
+00:18:24,980 --> 00:18:26,567
+in camel drop?
+
+482
+00:18:29,840 --> 00:18:31,365
+No, they aren't.
+
+483
+00:18:31,365 --> 00:18:34,485
+23 - 20, all of the cows and mooshrooms.
+
+484
+00:18:34,485 --> 00:18:35,945
+Stop bringing up the cold cow,
+
+485
+00:18:35,945 --> 00:18:36,715
+who even is that?
+
+486
+00:18:36,715 --> 00:18:38,635
+Since these two mobs are just color swaps,
+
+487
+00:18:38,635 --> 00:18:40,375
+I think it makes sense for them to be together.
+
+488
+00:18:40,375 --> 00:18:42,540
+They did a great job shrinking down the cow,
+
+489
+00:18:42,540 --> 00:18:45,270
+while also making it beefier than something like the baby pig.
+
+490
+00:18:45,270 --> 00:18:46,483
+Their models are all the same,
+
+491
+00:18:46,483 --> 00:18:48,695
+so their order is based on which color I like best,
+
+492
+00:18:48,695 --> 00:18:52,920
+which goes brown mooshroom, warm cow, classic cow, and the red mooshroom.
+
+493
+00:18:52,920 --> 00:18:55,360
+19-16, the rest of the cats.
+
+494
+00:18:55,360 --> 00:18:58,495
+We still have four more cats to talk about that we didn't mention earlier.
+
+495
+00:18:58,495 --> 00:19:01,300
+That's because this set doesn't have such creepy eyes,
+
+496
+00:19:01,300 --> 00:19:03,354
+so I find them to be significantly cuter.
+
+497
+00:19:03,354 --> 00:19:04,480
+First is the jelly cat,
+
+498
+00:19:04,480 --> 00:19:07,299
+which I think is helped by the gray pixels next to its eyes.
+
+499
+00:19:07,299 --> 00:19:08,700
+They aren't part of the eyes,
+
+500
+00:19:08,700 --> 00:19:10,080
+but it sort of looks that way,
+
+501
+00:19:10,080 --> 00:19:12,192
+and helps make this baby look a lot cuter to me.
+
+502
+00:19:12,192 --> 00:19:14,675
+Next is the red cat, and it looks like there are absolutely
+
+503
+00:19:14,675 --> 00:19:16,410
+zero thoughts going on in its head.
+
+504
+00:19:16,410 --> 00:19:19,693
+And then my two favorite cats are the Ragdoll and the British Shorthair,
+
+505
+00:19:19,693 --> 00:19:21,870
+because they have dark blue and black eyes respectively,
+
+506
+00:19:21,870 --> 00:19:23,292
+which look so much more natural than
+
+507
+00:19:23,292 --> 00:19:25,325
+than the colored eyes of the other baby cats.
+
+508
+00:19:25,325 --> 00:19:27,471
+These seem like the least likely to stare into my soul,
+
+509
+00:19:27,471 --> 00:19:29,092
+so I like them more than the rest.
+
+510
+00:19:29,092 --> 00:19:30,380
+15, the ocelot.
+
+511
+00:19:30,380 --> 00:19:33,775
+The mob itself may be useless, but it's got a pretty cute baby.
+
+512
+00:19:33,775 --> 00:19:34,965
+As far as I can tell,
+
+513
+00:19:34,970 --> 00:19:37,264
+it uses the same model as the rest of the kittens,
+
+514
+00:19:37,260 --> 00:19:40,099
+but what makes me like it the most are once again its eyes.
+
+515
+00:19:40,099 --> 00:19:43,330
+The darker pixels at the top help make the eyes look a lot less empty,
+
+516
+00:19:43,330 --> 00:19:46,595
+and in my opinion makes the ocelot the cutest cat-like mob.
+
+517
+00:19:46,595 --> 00:19:49,235
+14, the fox, and 13, the snowy fox.
+
+518
+00:19:49,235 --> 00:19:51,800
+These two just look so incredibly cuddly.
+
+519
+00:19:51,800 --> 00:19:53,613
+Their proportions are absolutely perfect,
+
+520
+00:19:53,610 --> 00:19:55,358
+and I would love to have one as a pet.
+
+521
+00:19:55,358 --> 00:19:56,590
+To be totally honest,
+
+522
+00:19:56,590 --> 00:19:59,825
+these babies kind of ruin my perception of the normal fox.
+
+523
+00:19:59,830 --> 00:20:01,890
+The adult's eyes look so weird,
+
+524
+00:20:01,890 --> 00:20:05,213
+and honestly kind of creepy being at the edge of their head like that.
+
+525
+00:20:06,224 --> 00:20:09,400
+I think foxes benefited a ton from this update.
+
+526
+00:20:09,400 --> 00:20:12,134
+12 - 4, all of the wolf variants.
+
+527
+00:20:12,130 --> 00:20:13,447
+Dogs are my favorite animal,
+
+528
+00:20:13,450 --> 00:20:16,647
+so of course I was going to absolutely love the puppies.
+
+529
+00:20:17,149 --> 00:20:20,985
+All along, I was the heckin' doggo redditor.
+
+530
+00:20:20,990 --> 00:20:23,213
+This update is my fault.
+
+531
+00:20:23,213 --> 00:20:25,158
+In all seriousness, these pups look
+
+532
+00:20:25,158 --> 00:20:27,859
+so much better than the original wolf babies.
+
+533
+00:20:27,859 --> 00:20:30,375
+I think these might be the mobs that benefited the most
+
+534
+00:20:30,375 --> 00:20:33,278
+from the one-pixel eyes that most of the babies seem to receive.
+
+535
+00:20:33,278 --> 00:20:36,320
+That's not to mention how much better their proportions are here too.
+
+536
+00:20:36,315 --> 00:20:37,775
+Just scrolling down the wiki page
+
+537
+00:20:37,775 --> 00:20:40,225
+made me really sad that I can't pet any of these guys.
+
+538
+00:20:40,230 --> 00:20:41,722
+They're all super adorable.
+
+539
+00:20:42,242 --> 00:20:46,020
+As for their order, I put them in based on which biome variant I like best.
+
+540
+00:20:46,015 --> 00:20:47,570
+So going from worst to best,
+
+541
+00:20:47,570 --> 00:20:51,485
+we have spotted, stripped, snowy, black, chestnut,
+
+542
+00:20:51,490 --> 00:20:54,323
+rusty, ashen, woods, and classic.
+
+543
+00:20:54,320 --> 00:20:56,050
+Out of all the babies in this video,
+
+544
+00:20:56,050 --> 00:20:58,385
+this is probably the set I'm most excited to see.
+
+545
+00:20:58,385 --> 00:21:00,575
+But I couldn't quite give them the number one spot
+
+546
+00:21:00,575 --> 00:21:02,965
+because we also have to look at the three chickens.
+
+547
+00:21:02,970 --> 00:21:06,300
+Mojang has plastered these chicks all over the marketing for this update
+
+548
+00:21:06,300 --> 00:21:07,530
+and it's clear to see why.
+
+549
+00:21:07,530 --> 00:21:10,200
+They're by far the most changed from their original design,
+
+550
+00:21:10,200 --> 00:21:11,925
+now taking on the form of tiny cubes
+
+551
+00:21:11,925 --> 00:21:13,863
+instead of just being smaller chickens.
+
+552
+00:21:13,863 --> 00:21:17,455
+That makes them both look so much funnier and also more accurate as well.
+
+553
+00:21:17,455 --> 00:21:20,590
+So I think the chickens 100% deserve the top spots.
+
+554
+00:21:20,590 --> 00:21:21,892
+Cold is my least favorite
+
+555
+00:21:21,892 --> 00:21:22,875
+just because I kinda like
+
+556
+00:21:22,875 --> 00:21:24,995
+how the warm chicken looks like it's been cooked a little.
+
+557
+00:21:24,995 --> 00:21:27,600
+Of course, the classic chicken has to be the best due to
+
+558
+00:21:27,600 --> 00:21:30,980
+going as far as to change its color scheme to yellow when in chick form.
+
+559
+00:21:30,980 --> 00:21:33,655
+So for having the biggest and best model change,
+
+560
+00:21:33,660 --> 00:21:37,486
+the classic chick takes the crown as the best baby mob in Minecraft.
+
+561
+00:21:38,840 --> 00:21:39,575
+But anyways,
+
+562
+00:21:39,575 --> 00:21:40,520
+that's not it for the video,
+
+563
+00:21:40,515 --> 00:21:41,165
+don't click off!
+
+564
+00:21:41,165 --> 00:21:43,392
+Remember, we still have three more features to rank
+
+565
+00:21:43,392 --> 00:21:45,656
+that I feel belong above the babies.
+
+566
+00:21:45,656 --> 00:21:47,460
+So to get back into the normal list here,
+
+567
+00:21:47,460 --> 00:21:49,658
+we have three, the golden dandelion.
+
+568
+00:21:49,660 --> 00:21:51,281
+If you look at the wiki page,
+
+569
+00:21:51,281 --> 00:21:54,725
+this is the one lone addition that is said to be added for this drop.
+
+570
+00:21:54,730 --> 00:21:56,325
+I find that very funny.
+
+571
+00:21:56,325 --> 00:21:57,308
+These can be obtained by
+
+572
+00:21:57,308 --> 00:22:00,376
+surrounding a dandelion with eight gold nuggets and a crafting table.
+
+573
+00:22:00,376 --> 00:22:02,558
+On top of just being a flower you can place down to
+
+574
+00:22:02,558 --> 00:22:04,492
+flex your wealth of a single gold ingot,
+
+575
+00:22:04,492 --> 00:22:06,895
+this does have a use relating to the baby mobs.
+
+576
+00:22:06,895 --> 00:22:09,492
+You can feed a golden dandelion to almost any baby
+
+577
+00:22:09,492 --> 00:22:11,265
+and it'll keep them as a baby forever.
+
+578
+00:22:11,265 --> 00:22:14,715
+That was a very important addition because if they didn't add this,
+
+579
+00:22:14,715 --> 00:22:18,042
+it would make remodeling all of the babies even more useless
+
+580
+00:22:18,040 --> 00:22:21,045
+since they would only exist like that for 20 minutes each.
+
+581
+00:22:21,045 --> 00:22:24,160
+If you do end up changing your mind and want your animal to be old again,
+
+582
+00:22:24,160 --> 00:22:26,325
+then you can always give them another golden dandelion
+
+583
+00:22:26,325 --> 00:22:27,455
+to undo the effect.
+
+584
+00:22:27,455 --> 00:22:29,975
+While I am very happy this is here to make the update
+
+585
+00:22:29,975 --> 00:22:31,523
+feel a bit more justified,
+
+586
+00:22:31,523 --> 00:22:33,920
+I really don't see myself using this much at all.
+
+587
+00:22:33,920 --> 00:22:35,740
+I might keep a couple puppies,
+
+588
+00:22:35,740 --> 00:22:38,423
+but besides that, I'm not touching this feature much.
+
+589
+00:22:38,423 --> 00:22:40,810
+I'll probably use it mostly as a decoration tool,
+
+590
+00:22:40,810 --> 00:22:42,821
+but even then, not very often.
+
+591
+00:22:42,821 --> 00:22:45,842
+I also just have to say that the golden dandelion's implementation
+
+592
+00:22:45,842 --> 00:22:47,976
+feels like a huge missed opportunity.
+
+593
+00:22:47,976 --> 00:22:50,501
+First off, of all the flowers to make gold,
+
+594
+00:22:50,500 --> 00:22:52,925
+they really chose the one that was already yellow.
+
+595
+00:22:52,925 --> 00:22:55,158
+A gold poppy or cornflower or something
+
+596
+00:22:55,158 --> 00:22:57,450
+would have been a far cooler decoration block.
+
+597
+00:22:57,450 --> 00:23:01,592
+Secondly, the way you get the golden dandelion just feels very lame.
+
+598
+00:23:01,592 --> 00:23:03,506
+Seeing as this is a flower,
+
+599
+00:23:03,506 --> 00:23:05,392
+I think this could have been the perfect chance to
+
+600
+00:23:05,392 --> 00:23:07,808
+finally give the sniffer a better use.
+
+601
+00:23:07,808 --> 00:23:10,725
+Everyone complains about how pointless the sniffer feels
+
+602
+00:23:10,725 --> 00:23:14,525
+because all it does is give the player two extremely niche flowers.
+
+603
+00:23:14,525 --> 00:23:18,089
+If the golden dandelion or something like it was added to the pool though,
+
+604
+00:23:18,089 --> 00:23:21,090
+it would give players a legitimate reason to look for a sniffer.
+
+605
+00:23:21,085 --> 00:23:23,100
+It wouldn't be the most helpful use,
+
+606
+00:23:23,100 --> 00:23:25,406
+like I said, I doubt I'm going to use this very much,
+
+607
+00:23:25,410 --> 00:23:28,401
+but it would be significantly better than what the mob has now.
+
+608
+00:23:28,400 --> 00:23:31,592
+Alternatively, maybe they could have finally added the moobloom this update
+
+609
+00:23:31,590 --> 00:23:34,007
+and have it give the player the golden dandelion somehow.
+
+610
+00:23:34,007 --> 00:23:36,692
+We know Mojang is willing to change a mob vote loser's use
+
+611
+00:23:36,692 --> 00:23:37,935
+based on the copper golem.
+
+612
+00:23:37,935 --> 00:23:40,470
+Seeing as so many people want the moobloom in the game,
+
+613
+00:23:40,470 --> 00:23:42,092
+I think this would have been perfect.
+
+614
+00:23:42,092 --> 00:23:44,042
+As it is now, the golden dandelion
+
+615
+00:23:44,042 --> 00:23:47,592
+just has a simple crafting recipe using two fairly common materials,
+
+616
+00:23:47,592 --> 00:23:50,080
+so it doesn't really open up for much unique gameplay.
+
+617
+00:23:50,080 --> 00:23:52,132
+Overall, this is still a good addition,
+
+618
+00:23:52,130 --> 00:23:54,495
+but I just wish they went about it in a different way.
+
+619
+00:23:54,495 --> 00:23:56,275
+Two, stonecutter changes.
+
+620
+00:23:56,280 --> 00:23:59,402
+In every other drop, this would be near the bottom of the ranking,
+
+621
+00:23:59,402 --> 00:24:01,425
+but I think this is the first real feature here
+
+622
+00:24:01,425 --> 00:24:03,155
+that I'm going to get a ton of use out of.
+
+623
+00:24:03,155 --> 00:24:05,630
+If you're an avid user of a silk touch pickaxe,
+
+624
+00:24:05,630 --> 00:24:06,958
+you likely know the annoyance of
+
+625
+00:24:06,960 --> 00:24:08,960
+accidentally collecting a ton of deepslate
+
+626
+00:24:08,960 --> 00:24:11,045
+when you really need cobbled deepslate.
+
+627
+00:24:11,045 --> 00:24:14,075
+Previously, only cobbled deepslate could be used to craft
+
+628
+00:24:14,075 --> 00:24:15,925
+any of the deepslate block variants,
+
+629
+00:24:15,925 --> 00:24:19,008
+whereas the normal deep slop was literally useless.
+
+630
+00:24:19,008 --> 00:24:20,920
+So if you had a large collection of it,
+
+631
+00:24:20,920 --> 00:24:22,975
+you'd have to re-mine them with a normal pickaxe
+
+632
+00:24:22,975 --> 00:24:24,405
+just to get the cobbled version.
+
+633
+00:24:24,405 --> 00:24:27,192
+Luckily, Mojang finally realized how annoying that is
+
+634
+00:24:27,192 --> 00:24:29,825
+and now lets you use the stonecutter to turn normal deepslate
+
+635
+00:24:29,825 --> 00:24:32,138
+directly into any of the deepslate variants.
+
+636
+00:24:32,138 --> 00:24:34,492
+This is such a good quality of life improvement
+
+637
+00:24:34,492 --> 00:24:36,636
+and even extends outside of deepslate.
+
+638
+00:24:36,636 --> 00:24:38,425
+Stoneblocks can now also be turned into
+
+639
+00:24:38,425 --> 00:24:40,425
+any cobblestone block in the stonecutter.
+
+640
+00:24:40,425 --> 00:24:42,825
+Overall, I'm very happy with this change that will
+
+641
+00:24:42,825 --> 00:24:45,293
+make deepslate mining a lot less annoying.
+
+642
+00:24:45,290 --> 00:24:49,092
+But with how absolutely phenomenal this update has been,
+
+643
+00:24:49,090 --> 00:24:51,851
+what could possibly take the number one spot?
+
+644
+00:25:03,030 --> 00:25:05,681
+I can't think of a more fitting winner for this drop
+
+645
+00:25:06,142 --> 00:25:07,590
+than a fart sound effect.
+
+646
+00:25:07,590 --> 00:25:09,542
+Noteblocks are given brand new trumpet sounds
+
+647
+00:25:09,542 --> 00:25:11,295
+when placed on top of copper blocks.
+
+648
+00:25:11,295 --> 00:25:14,692
+Having a new instrument is always going to be insanely useful
+
+649
+00:25:14,692 --> 00:25:16,208
+for noteblock music makers,
+
+650
+00:25:16,208 --> 00:25:18,320
+but these go even further than normal.
+
+651
+00:25:18,315 --> 00:25:20,985
+There are actually four different types of trumpet sounds,
+
+652
+00:25:20,990 --> 00:25:22,915
+one for each level of oxidation.
+
+653
+00:25:25,960 --> 00:25:28,160
+This was a really cool idea,
+
+654
+00:25:28,155 --> 00:25:29,605
+and as I already pointed out,
+
+655
+00:25:29,605 --> 00:25:32,430
+the oxidized one is basically a fart sound effect.
+
+656
+00:25:32,430 --> 00:25:35,607
+Now unfortunately, I'm not very good at making music.
+
+657
+00:25:39,040 --> 00:25:42,538
+But I am good at being evil and nefarious.
+
+658
+00:25:44,342 --> 00:25:48,030
+I know that I'm going to be using this fart sound effect so much.
+
+659
+00:25:48,025 --> 00:25:49,942
+You can now basically make a whoopee cushion
+
+660
+00:25:49,940 --> 00:25:51,672
+and put it in your friend's bases.
+
+661
+00:25:53,221 --> 00:25:54,670
+Hew, pranked!
+
+662
+00:25:56,650 --> 00:25:59,849
+You can tie this to any redstone input or even just a skulk sensor
+
+663
+00:25:59,849 --> 00:26:01,270
+to make it harder totrack.
+
+664
+00:26:01,270 --> 00:26:03,675
+There are so many ways you can use this sound effect
+
+665
+00:26:03,675 --> 00:26:06,585
+and I'm very much looking forward to pranking my friends with it.
+
+666
+00:26:06,585 --> 00:26:07,760
+Wait, I don't have those.
+
+667
+00:26:09,292 --> 00:26:11,570
+So out of all the features in this update,
+
+668
+00:26:11,570 --> 00:26:14,960
+I think this is the one that will bring me the most joy to use.
+
+669
+00:26:14,960 --> 00:26:16,325
+It may seem stupid,
+
+670
+00:26:16,330 --> 00:26:20,261
+but I think the best feature in this incredibly lackluster drop
+
+671
+00:26:20,260 --> 00:26:22,513
+is without a doubt, the fart note block.
+
+672
+00:26:23,108 --> 00:26:25,244
+But anyways, that's it for this video.
+
+673
+00:26:25,244 --> 00:26:27,442
+Do you love the new baby chainmail leggings
+
+674
+00:26:27,442 --> 00:26:29,400
+and hate me for saying the baby armor sucks?
+
+675
+00:26:29,400 --> 00:26:30,745
+Let me know in the comments.
+
+676
+00:26:30,750 --> 00:26:33,129
+Sorry if I was off-hating for a lot of this video,
+
+677
+00:26:33,129 --> 00:26:34,575
+but luckily I think the next drop
+
+678
+00:26:34,575 --> 00:26:36,860
+is already looking a lot better than this one.
+
+679
+00:26:36,860 --> 00:26:38,979
+We're getting our first full blocks in over a year,
+
+680
+00:26:38,979 --> 00:26:40,263
+so that's pretty exciting.
+
+681
+00:26:40,260 --> 00:26:41,795
+But I've got to get back to doing my homework,
+
+682
+00:26:41,800 --> 00:26:44,035
+so before I go, I've got to thank my members being
+
+683
+00:26:44,035 --> 00:27:31,695
+(SPONSORS)
+
+684
+00:27:31,695 --> 00:27:33,485
+But anyways, dry bones for Smash,
+
+685
+00:27:33,490 --> 00:27:34,960
+and I'll see you guys next time.
+
