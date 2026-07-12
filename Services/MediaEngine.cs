@@ -25,6 +25,7 @@ public class MediaEngine
     private int _pushStreamHandle; // BASS 推送流
 
     // 播放变量
+    private double _rangeStartTime = 0; // 新增：用于精准记录当前片段的绝对起点时间
     private double _rangeEndTime = 0;
     private bool _isRangePlaying = false;
     
@@ -144,34 +145,33 @@ public class MediaEngine
         // 创建一个空的推送流 
         _pushStreamHandle = Bass.CreateStream(_sampleRate, _channels, BassFlags.Default, StreamProcedureType.Push);
         
-        // 开启定时器，每 1ms 检查并喂一次数据
-        _feedTimer = new System.Timers.Timer(1);
+        // 间隔改为 20 毫秒，避免与 Seek 产生高频竞争
+        _feedTimer = new System.Timers.Timer(20);
         _feedTimer.Elapsed += (s, e) => FeedAudioData();
-        _feedTimer.Start();
         
-        Bass.ChannelPlay(_pushStreamHandle);
+        // 默认停在第 0 帧，不主动调用 Bass.ChannelPlay
     }
 
     private void FeedAudioData()
     {
         if (_isRangePlaying && GetCurrentTime() >= _rangeEndTime)
         {
-            // 必须在主线程或异步安全的上下文执行暂停
             Pause(); 
             return;
         }
 
         if (_pcmData == null || _pushStreamHandle == 0) return;
-        // 检查 BASS 推流缓冲区可用字节数（使用原始常量，避免未定义的 BASSData）
-        const int BASS_DATA_AVAILABLE = 0x2000000; // BASS_DATA_AVAILABLE
-        int inboundBytes = Bass.ChannelGetData(_pushStreamHandle, IntPtr.Zero, BASS_DATA_AVAILABLE);
-        if (inboundBytes < 0) inboundBytes = 0; // 保险处理，避免负值
+
+        //  使用 ManagedBass 自带的 BASSData.Available 枚举，它的底层正是 0x80000000
+        int inboundBytes = Bass.ChannelGetData(_pushStreamHandle, IntPtr.Zero, (int)DataFlags.Available);
+        if (inboundBytes < 0) inboundBytes = 0; 
 
         // 如果缓冲区数据少于 100ms 的量，赶快推入新数据
         int minBytesNeeded = _sampleRate * _channels * sizeof(short) / 10;
         if (inboundBytes < minBytesNeeded)
         {
-            int samplesToFeed = _sampleRate * _channels / 5; // 每次喂 200ms 的量（单位：short 样本数）
+            // 每次喂 200ms 的量
+            int samplesToFeed = _sampleRate * _channels / 5; 
             if (_currentSampleIndex + samplesToFeed > _pcmData.Length)
             {
                 samplesToFeed = _pcmData.Length - (int)_currentSampleIndex;
@@ -179,7 +179,6 @@ public class MediaEngine
 
             if (samplesToFeed > 0)
             {
-                // 从全量内存中截取一段推送给 BASS 
                 unsafe
                 {
                     fixed (short* pData = &_pcmData[_currentSampleIndex])
@@ -228,14 +227,19 @@ public class MediaEngine
             Pause();
         }
 
-        // 跳转到开始时间
+        // 1. 跳转到开始时间
         this.Seek(startTime);
+        _rangeStartTime = startTime; // 📌【新增】记录本次播放的绝对时间起点
 
-        // 锁定结束时间与状态
+        // 2. 锁定结束时间与状态
         _rangeEndTime = endTime;
         _isRangePlaying = true;
 
-        // 启动回放（确保 BASS 开始播放，定时器开始工作）
+        // 在 Play 之前，手动预喂一次数据
+        // 这会让 JIT 在主线程提前完成，并让 BASS 带着 200ms 的缓存完美起步
+        FeedAudioData();
+
+        // 4. 启动回放
         Bass.ChannelPlay(_pushStreamHandle);
         if (!_feedTimer.Enabled)
         {
