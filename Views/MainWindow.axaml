@@ -23,11 +23,10 @@
         </Grid.KeyBindings>
 
         <!-- 顶部菜单 -->
-        <DockPanel x:Name="TopBar" Grid.Row="0">
-            <Label>
-                这里是主上菜单
-            </Label>
-        </DockPanel>
+        <StackPanel x:Name="TopBar" Grid.Row="0" Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
+            <Button Click="OpenSrt_Click" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>
+            <Button Click="OpenMedia_Click" x:Name="OpenMedia" Background="#EFEFEF">打开媒体文件</Button>
+        </StackPanel>
 
         <!-- 音视频视图 -->
         <Grid x:Name="VidAudPanel" Grid.Row="1" ColumnDefinitions="3*, Auto, 7*">
@@ -84,6 +83,9 @@
 
                 <!-- 下方的字幕列表 -->
                 <Panel x:Name="SubtitleListPanel" Grid.Row="1">
+                    <Panel.KeyBindings>
+                        <KeyBinding Gesture="Space" Command="{Binding SpacePlayRangeCommand}"></KeyBinding>
+                    </Panel.KeyBindings>
                     <DataGrid x:Name="SubtitleDataGrid"
                         ItemsSource="{Binding SubtitleList}" 
                         SelectionChanged="SubtitleList_SelectionChanged"
@@ -126,7 +128,6 @@
                 <!-- 底部的菜单 -->
                 <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Row="2">
                     <StackPanel x:Name="SubtitleDock" Orientation="Horizontal" Spacing="5" HorizontalAlignment="Center">
-                        <Button Click="OpenSrt_Click" x:Name="OpenSrt" Background="#EFEFEF">打开字幕文件</Button>
                         <Button x:Name="BilingualMode" Background="#EFEFEF">双语模式</Button>
                         <Button x:Name="CJKHalfWidthFix" Background="#EFEFEF">CJK半角修正</Button>
                     </StackPanel>

@@ -46,6 +46,9 @@ public partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty]
     private string _speechSpeedStr = "0";
 
+    // 媒体引擎对象
+    public MediaEngine MediaEngine { get; } = new MediaEngine();
+
     // 打开 srt 文件
     public void OpenSubtitleFile(string filePath)
     {
@@ -59,6 +62,12 @@ public partial class MainWindowViewModel : ViewModelBase
         _currentSubtitleFilePath = filePath;
         EnsureSelection();
         Console.WriteLine("SubtitleList Filling Complete!");
+    }
+
+    public void OpenMediaFile(string filePath)
+    {
+        MediaEngine.LoadMedia(filePath);
+        MediaEngine.Seek(0);
     }
 
     public void SyncSelection(IEnumerable<SubtitleItem> removedItems, IEnumerable<SubtitleItem> addedItems)
@@ -145,5 +154,19 @@ public partial class MainWindowViewModel : ViewModelBase
 
         _subtitleExporter.ExportToSrt(actuallFilePath, SubtitleList);
         Console.WriteLine($"Subtitles exported to: {actuallFilePath}");
+    }
+
+    [RelayCommand]
+    private void SpacePlayRange()
+    {
+        // 健壮性检查：如果没有载入音频，或者没有选中字幕，直接返回
+        if (CurrentSubtitle == null) return;
+
+        // 提取开始时间和结束时间（统一转换为秒，因为 MediaEngine 内部用秒）
+        double startSec = CurrentSubtitle.StartTime.TotalSeconds;
+        double endSec = CurrentSubtitle.EndTime.TotalSeconds;
+
+        // 调用刚才引擎写好的区间播放
+        MediaEngine.PlayRange(startSec, endSec);
     }
 }

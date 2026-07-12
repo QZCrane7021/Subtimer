@@ -16,6 +16,33 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
+    public static class MediaFileFilters
+    {
+        // 1. 视频文件过滤器
+        public static FilePickerFileType VideoFiles { get; } = new("视频文件")
+        {
+            Patterns = new[] { "*.mp4", "*.mkv", "*.avi", "*.mov", "*.webm", "*.ts", "*.flv", "*.wmv", "*.m4v" },
+            MimeTypes = new[] { "video/*" }
+        };
+
+        // 2. 音频文件过滤器
+        public static FilePickerFileType AudioFiles { get; } = new("音频文件")
+        {
+            Patterns = new[] { "*.mp3", "*.wav", "*.aac", "*.flac", "*.m4a", "*.ogg", "*.wma", "*.opus" },
+            MimeTypes = new[] { "audio/*" }
+        };
+
+        // 3. 所有多媒体文件（音视频合并，方便用户一次性查看）
+        public static FilePickerFileType AllMediaFiles { get; } = new("所有多媒体文件")
+        {
+            Patterns = new[] 
+            { 
+                "*.mp4", "*.mkv", "*.avi", "*.mov", "*.webm", "*.ts", "*.flv", "*.wmv", "*.m4v",
+                "*.mp3", "*.wav", "*.aac", "*.flac", "*.m4a", "*.ogg", "*.wma", "*.opus" 
+            }
+        };
+    }
+
     // 打开字幕按钮
     private async void OpenSrt_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
     {
@@ -46,6 +73,34 @@ public partial class MainWindow : Window
             }
         }
     }
+
+    private async void OpenMedia_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    {
+        var topLevel = TopLevel.GetTopLevel(this);
+        if (topLevel == null) return;
+
+        var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+        {
+            Title = "请选择要打开的字幕文件",
+            AllowMultiple = false,
+            FileTypeFilter = new[]
+                {
+                    MediaFileFilters.AllMediaFiles, // 默认显示“所有多媒体”
+                    MediaFileFilters.VideoFiles,    // 切换下拉菜单可以只看视频
+                    MediaFileFilters.AudioFiles,    // 切换下拉菜单可以只看音频
+                    FilePickerFileTypes.All         // “所有文件 (*.*)”
+                }
+        });
+
+        if (files.Count > 0)
+        {
+            string filePath = files[0].Path.LocalPath;
+            if (DataContext is MainWindowViewModel viewModel)
+            {
+                viewModel.OpenMediaFile(filePath);
+            }
+        }
+    } 
 
     // 字幕列表选择区域变化
     private void SubtitleList_SelectionChanged(object? sender, SelectionChangedEventArgs e)
