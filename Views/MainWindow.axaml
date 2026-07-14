@@ -33,10 +33,8 @@
             <!-- 视频视图 -->
             <Border BorderBrush="#3C3C3C" BorderThickness="2" Grid.Column="0">
                 <Grid x:Name="VideoPanel" RowDefinitions="*, Auto">
-                    <Panel x:Name="VideoPlay" Grid.Row="0" >
-                        <Label>
-                            这里是视频播放面板
-                        </Label>
+                    <Panel x:Name="VideoPlayPanel" Grid.Row="0" >
+                        <Image x:Name="VideoPlayer" Stretch="Uniform" />
                     </Panel>
                     <DockPanel x:Name="VideoDock" Grid.Row="1">
                         <Label>

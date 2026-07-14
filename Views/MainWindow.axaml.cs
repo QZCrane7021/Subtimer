@@ -154,4 +154,56 @@ public partial class MainWindow : Window
             _isSyncingSelection = false;
         }
     }
+
+    protected override void OnPropertyChanged(Avalonia.AvaloniaPropertyChangedEventArgs change)
+    {
+        base.OnPropertyChanged(change);
+
+        if (change.Property == DataContextProperty)
+        {
+            // 1. 旧 ViewModel 卸载时，及时取消订阅，防止内存泄漏
+            if (change.OldValue is MainWindowViewModel oldVm)
+            {
+                oldVm.MediaEngine.VideoFrameUpdated -= OnVideoFrameUpdated;
+            }
+
+            // 2. 新 ViewModel 挂载时，订阅视频帧更新事件
+            if (change.NewValue is MainWindowViewModel newVm)
+            {
+                newVm.MediaEngine.VideoFrameUpdated += OnVideoFrameUpdated;
+                
+                // 如果此时引擎已经有初始化好的视频源，直接赋给控件
+                if (VideoPlayer != null)
+                {
+                    VideoPlayer.Source = newVm.MediaEngine.VideoSource;
+                }
+            }
+        }
+    }
+
+    private void OnVideoFrameUpdated()
+    {
+        // 必须在 Avalonia 的 UI 线程（渲染线程）上操作控件
+        Avalonia.Threading.Dispatcher.UIThread.Post(() =>
+        {
+            if (VideoPlayer == null) return;
+
+            if (DataContext is MainWindowViewModel viewModel)
+            {
+                var engineSource = viewModel.MediaEngine.VideoSource;
+
+                // 【自适应机制】：如果用户刚刚导入了新视频，Image 控件的 Source 还是旧的（或者 null）
+                // 我们在这里动态将最新的 WriteableBitmap 引用挂载到 Image 控件上
+                if (VideoPlayer.Source != engineSource)
+                {
+                    VideoPlayer.Source = engineSource;
+                }
+
+                // 🔥 核心：强制触发 Avalonia 重新绘制该 Image 控件
+                // 因为 WriteableBitmap 内部像素被修改时，Avalonia 并不知道，
+                // 必须通过 InvalidateVisual() 告诉渲染管线重新抓取这块显存进行渲染
+                VideoPlayer.InvalidateVisual();
+            }
+        });
+    }
 }
