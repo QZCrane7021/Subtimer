@@ -18,21 +18,21 @@ public partial class MainWindow : Window
 
     public static class MediaFileFilters
     {
-        // 1. 视频文件过滤器
+        // 视频文件过滤器
         public static FilePickerFileType VideoFiles { get; } = new("视频文件")
         {
             Patterns = new[] { "*.mp4", "*.mkv", "*.avi", "*.mov", "*.webm", "*.ts", "*.flv", "*.wmv", "*.m4v" },
             MimeTypes = new[] { "video/*" }
         };
 
-        // 2. 音频文件过滤器
+        // 音频文件过滤器
         public static FilePickerFileType AudioFiles { get; } = new("音频文件")
         {
             Patterns = new[] { "*.mp3", "*.wav", "*.aac", "*.flac", "*.m4a", "*.ogg", "*.wma", "*.opus" },
             MimeTypes = new[] { "audio/*" }
         };
 
-        // 3. 所有多媒体文件（音视频合并，方便用户一次性查看）
+        // 所有多媒体文件（音视频合并，方便用户一次性查看）
         public static FilePickerFileType AllMediaFiles { get; } = new("所有多媒体文件")
         {
             Patterns = new[] 
@@ -115,9 +115,7 @@ public partial class MainWindow : Window
             // 先让 ViewModel 默默更新数据（SelectedSubtitles 和 CurrentSubtitle）
             viewModel.SyncSelection(e.RemovedItems.OfType<SubtitleItem>(), e.AddedItems.OfType<SubtitleItem>());
             
-            // 检查 DataGrid 此时真实的选中数量
-            // 只有当数量真的归零了（即用户按 Ctrl 取消了最后一条，或者全选后误触取消干净），
-            // 我们才老老实实启动 Aegisub 的保底机制，强行把 View 掰回来。
+            // 检查 DataGrid 此时真实的选中数量，只有数量确实归零才进行保底处理
             if (SubtitleDataGrid != null && SubtitleDataGrid.SelectedItems.Count == 0)
             {
                 SyncSelectionToGrid(viewModel.CurrentSubtitle);
@@ -161,13 +159,13 @@ public partial class MainWindow : Window
 
         if (change.Property == DataContextProperty)
         {
-            // 1. 旧 ViewModel 卸载时，及时取消订阅，防止内存泄漏
+            // 旧 ViewModel 卸载时，及时取消订阅，防止内存泄漏
             if (change.OldValue is MainWindowViewModel oldVm)
             {
                 oldVm.MediaEngine.VideoFrameUpdated -= OnVideoFrameUpdated;
             }
 
-            // 2. 新 ViewModel 挂载时，订阅视频帧更新事件
+            // 新 ViewModel 挂载时，订阅视频帧更新事件
             if (change.NewValue is MainWindowViewModel newVm)
             {
                 newVm.MediaEngine.VideoFrameUpdated += OnVideoFrameUpdated;
